@@ -1,0 +1,13 @@
+2025-04-23 18:04:03,090 - INFO - StockPortfolioLogger - Starting data injection process...
+2025-04-23 18:04:03,090 - INFO - StockPortfolioLogger - Fetching news for AAPL
+2025-04-23 18:04:03,538 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
+2025-04-23 18:04:03,539 - INFO - StockPortfolioLogger - Fetching news for TSLA
+2025-04-23 18:04:03,781 - INFO - StockPortfolioLogger - TSLA → 233 articles fetched
+2025-04-23 18:04:03,781 - INFO - StockPortfolioLogger - Fetching news for MSFT
+2025-04-23 18:04:04,201 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
+2025-04-23 18:04:04,202 - INFO - StockPortfolioLogger - Fetching news for AMZN
+2025-04-23 18:04:04,490 - INFO - StockPortfolioLogger - AMZN → 246 articles fetched
+2025-04-23 18:04:04,491 - INFO - StockPortfolioLogger - Fetching news for GOOGL
+2025-04-23 18:04:04,899 - INFO - StockPortfolioLogger - GOOGL → 239 articles fetched
+2025-04-23 18:04:04,909 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
+2025-04-23 18:06:45,810 - INFO - StockPortfolioLogger - Configuration loaded successfully.
