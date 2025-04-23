@@ -11,3 +11,13 @@
 2025-04-23 18:04:04,899 - INFO - StockPortfolioLogger - GOOGL → 239 articles fetched
 2025-04-23 18:04:04,909 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
 2025-04-23 18:06:45,810 - INFO - StockPortfolioLogger - Configuration loaded successfully.
+2025-04-23 18:09:12,316 - INFO - StockPortfolioLogger - Dow Jones data loaded successfully.
+2025-04-23 18:09:12,338 - INFO - StockPortfolioLogger - NASDAQ data loaded successfully.
+2025-04-23 18:09:12,385 - INFO - StockPortfolioLogger - S&P 500 data loaded successfully.
+2025-04-23 18:09:12,440 - INFO - StockPortfolioLogger - Portfolio data loaded successfully.
+2025-04-23 18:09:12,787 - INFO - StockPortfolioLogger - Portfolio prices data loaded successfully.
+2025-04-23 18:09:40,068 - INFO - StockPortfolioLogger - Dow Jones data loaded successfully.
+2025-04-23 18:09:40,080 - INFO - StockPortfolioLogger - NASDAQ data loaded successfully.
+2025-04-23 18:09:40,095 - INFO - StockPortfolioLogger - S&P 500 data loaded successfully.
+2025-04-23 18:09:40,100 - INFO - StockPortfolioLogger - Portfolio data loaded successfully.
+2025-04-23 18:09:40,366 - INFO - StockPortfolioLogger - Portfolio prices data loaded successfully.
