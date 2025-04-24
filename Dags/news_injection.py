@@ -62,3 +62,8 @@ print(f"Stock data saved to '{output_file}'")
 
 
 news_data= pd.read_csv('/home/samyak/PycharmProjects/Stock-Portfolio-Performance-and-News-Correlation-Analysis/updated_news_data.csv')
+
+#converting datetime to date in news dataset
+
+news_data['datetime'] = pd.to_datetime(news_data['datetime'], errors= 'coerce').dt.date
+news_data.rename(columns={'datetime':'date'}, inplace =True)
