@@ -1,587 +1,836 @@
-2025-04-23 18:04:03,090 - INFO - StockPortfolioLogger - Starting data injection process...
-2025-04-23 18:04:03,090 - INFO - StockPortfolioLogger - Fetching news for AAPL
-2025-04-23 18:04:03,538 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
-2025-04-23 18:04:03,539 - INFO - StockPortfolioLogger - Fetching news for TSLA
-2025-04-23 18:04:03,781 - INFO - StockPortfolioLogger - TSLA → 233 articles fetched
-2025-04-23 18:04:03,781 - INFO - StockPortfolioLogger - Fetching news for MSFT
-2025-04-23 18:04:04,201 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
-2025-04-23 18:04:04,202 - INFO - StockPortfolioLogger - Fetching news for AMZN
-2025-04-23 18:04:04,490 - INFO - StockPortfolioLogger - AMZN → 246 articles fetched
-2025-04-23 18:04:04,491 - INFO - StockPortfolioLogger - Fetching news for GOOGL
-2025-04-23 18:04:04,899 - INFO - StockPortfolioLogger - GOOGL → 239 articles fetched
-2025-04-23 18:04:04,909 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
-2025-04-23 18:06:45,810 - INFO - StockPortfolioLogger - Configuration loaded successfully.
-2025-04-23 18:09:12,316 - INFO - StockPortfolioLogger - Dow Jones data loaded successfully.
-2025-04-23 18:09:12,338 - INFO - StockPortfolioLogger - NASDAQ data loaded successfully.
-2025-04-23 18:09:12,385 - INFO - StockPortfolioLogger - S&P 500 data loaded successfully.
-2025-04-23 18:09:12,440 - INFO - StockPortfolioLogger - Portfolio data loaded successfully.
-2025-04-23 18:09:12,787 - INFO - StockPortfolioLogger - Portfolio prices data loaded successfully.
-2025-04-23 18:09:40,068 - INFO - StockPortfolioLogger - Dow Jones data loaded successfully.
-2025-04-23 18:09:40,080 - INFO - StockPortfolioLogger - NASDAQ data loaded successfully.
-2025-04-23 18:09:40,095 - INFO - StockPortfolioLogger - S&P 500 data loaded successfully.
-2025-04-23 18:09:40,100 - INFO - StockPortfolioLogger - Portfolio data loaded successfully.
-2025-04-23 18:09:40,366 - INFO - StockPortfolioLogger - Portfolio prices data loaded successfully.
-2025-04-24 09:42:20,260 - INFO - StockPortfolioLogger - Configuration loaded successfully.
-2025-04-24 09:42:22,666 - INFO - StockPortfolioLogger - Starting data injection process...
-2025-04-24 09:42:22,666 - INFO - StockPortfolioLogger - Fetching news for AAPL
-2025-04-24 09:42:23,232 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
-2025-04-24 09:42:23,232 - INFO - StockPortfolioLogger - Fetching news for TSLA
-2025-04-24 09:42:23,581 - INFO - StockPortfolioLogger - TSLA → 233 articles fetched
-2025-04-24 09:42:23,581 - INFO - StockPortfolioLogger - Fetching news for MSFT
-2025-04-24 09:42:23,922 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
-2025-04-24 09:42:23,922 - INFO - StockPortfolioLogger - Fetching news for AMZN
-2025-04-24 09:42:24,289 - INFO - StockPortfolioLogger - AMZN → 246 articles fetched
-2025-04-24 09:42:24,289 - INFO - StockPortfolioLogger - Fetching news for GOOGL
-2025-04-24 09:42:24,647 - INFO - StockPortfolioLogger - GOOGL → 239 articles fetched
-2025-04-24 09:42:24,668 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
-2025-04-24 09:44:42,149 - INFO - StockPortfolioLogger - Configuration loaded successfully.
-2025-04-24 09:44:44,545 - INFO - StockPortfolioLogger - Starting data injection process...
-2025-04-24 09:44:44,545 - INFO - StockPortfolioLogger - Fetching news for AAPL
-2025-04-24 09:44:44,804 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
-2025-04-24 09:44:44,804 - INFO - StockPortfolioLogger - Fetching news for TSLA
-2025-04-24 09:44:45,008 - INFO - StockPortfolioLogger - TSLA → 233 articles fetched
-2025-04-24 09:44:45,009 - INFO - StockPortfolioLogger - Fetching news for MSFT
-2025-04-24 09:44:45,217 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
-2025-04-24 09:44:45,218 - INFO - StockPortfolioLogger - Fetching news for AMZN
-2025-04-24 09:44:45,416 - INFO - StockPortfolioLogger - AMZN → 246 articles fetched
-2025-04-24 09:44:45,417 - INFO - StockPortfolioLogger - Fetching news for GOOGL
-2025-04-24 09:44:45,634 - INFO - StockPortfolioLogger - GOOGL → 239 articles fetched
-2025-04-24 09:44:45,647 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
-2025-04-24 09:54:43,937 - INFO - StockPortfolioLogger - Configuration loaded successfully.
-2025-04-24 09:54:45,964 - INFO - StockPortfolioLogger - Starting data injection process...
-2025-04-24 09:54:45,965 - INFO - StockPortfolioLogger - Fetching news for AAPL
-2025-04-24 09:54:46,508 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
-2025-04-24 09:54:46,509 - INFO - StockPortfolioLogger - Fetching news for ADAP
-2025-04-24 09:54:46,808 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
-2025-04-24 09:54:46,809 - INFO - StockPortfolioLogger - Fetching news for AGCO
-2025-04-24 09:54:47,220 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
-2025-04-24 09:54:47,220 - INFO - StockPortfolioLogger - Fetching news for BA
-2025-04-24 09:54:47,730 - INFO - StockPortfolioLogger - BA → 227 articles fetched
-2025-04-24 09:54:47,731 - INFO - StockPortfolioLogger - Fetching news for BG
-2025-04-24 09:54:48,120 - INFO - StockPortfolioLogger - BG → 192 articles fetched
-2025-04-24 09:54:48,120 - INFO - StockPortfolioLogger - Fetching news for CALM
-2025-04-24 09:54:48,498 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
-2025-04-24 09:54:48,498 - INFO - StockPortfolioLogger - Fetching news for CAT
-2025-04-24 09:54:48,710 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
-2025-04-24 09:54:48,710 - INFO - StockPortfolioLogger - Fetching news for CSCO
-2025-04-24 09:54:48,940 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
-2025-04-24 09:54:48,940 - INFO - StockPortfolioLogger - Fetching news for CVX
-2025-04-24 09:54:49,312 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
-2025-04-24 09:54:49,312 - INFO - StockPortfolioLogger - Fetching news for DDOG
-2025-04-24 09:54:49,676 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
-2025-04-24 09:54:49,676 - INFO - StockPortfolioLogger - Fetching news for DE
-2025-04-24 09:54:49,938 - INFO - StockPortfolioLogger - DE → 205 articles fetched
-2025-04-24 09:54:49,938 - INFO - StockPortfolioLogger - Fetching news for GRWG
-2025-04-24 09:54:50,174 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
-2025-04-24 09:54:50,175 - INFO - StockPortfolioLogger - Fetching news for HUM
-2025-04-24 09:54:50,399 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
-2025-04-24 09:54:50,399 - INFO - StockPortfolioLogger - Fetching news for IBKR
-2025-04-24 09:54:50,611 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
-2025-04-24 09:54:50,611 - INFO - StockPortfolioLogger - Fetching news for IEX
-2025-04-24 09:54:50,850 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
-2025-04-24 09:54:50,850 - INFO - StockPortfolioLogger - Fetching news for JPM
-2025-04-24 09:54:51,167 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
-2025-04-24 09:54:51,167 - INFO - StockPortfolioLogger - Fetching news for KO
-2025-04-24 09:54:51,427 - INFO - StockPortfolioLogger - KO → 232 articles fetched
-2025-04-24 09:54:51,428 - INFO - StockPortfolioLogger - Fetching news for LMT
-2025-04-24 09:54:51,657 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
-2025-04-24 09:54:51,658 - INFO - StockPortfolioLogger - Fetching news for MS
-2025-04-24 09:54:51,862 - INFO - StockPortfolioLogger - MS → 230 articles fetched
-2025-04-24 09:54:51,862 - INFO - StockPortfolioLogger - Fetching news for MSCI
-2025-04-24 09:54:52,096 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
-2025-04-24 09:54:52,096 - INFO - StockPortfolioLogger - Fetching news for MSFT
-2025-04-24 09:54:52,440 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
-2025-04-24 09:54:52,440 - INFO - StockPortfolioLogger - Fetching news for NFLX
-2025-04-24 09:54:52,663 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
-2025-04-24 09:54:52,663 - INFO - StockPortfolioLogger - Fetching news for OSK
-2025-04-24 09:54:52,999 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
-2025-04-24 09:54:52,999 - INFO - StockPortfolioLogger - Fetching news for PFE
-2025-04-24 09:54:53,221 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
-2025-04-24 09:54:53,222 - INFO - StockPortfolioLogger - Fetching news for PG
-2025-04-24 09:54:53,464 - INFO - StockPortfolioLogger - PG → 215 articles fetched
-2025-04-24 09:54:53,465 - INFO - StockPortfolioLogger - Fetching news for SPY
-2025-04-24 09:54:53,676 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
-2025-04-24 09:54:53,677 - INFO - StockPortfolioLogger - Fetching news for TMUS
-2025-04-24 09:54:53,957 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
-2025-04-24 09:54:54,006 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
-2025-04-24 09:57:41,446 - INFO - StockPortfolioLogger - Configuration loaded successfully.
-2025-04-24 09:57:43,708 - INFO - StockPortfolioLogger - Starting data injection process...
-2025-04-24 09:57:43,708 - INFO - StockPortfolioLogger - Fetching news for AAPL
-2025-04-24 09:57:44,046 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
-2025-04-24 09:57:44,046 - INFO - StockPortfolioLogger - Fetching news for ADAP
-2025-04-24 09:57:44,394 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
-2025-04-24 09:57:44,394 - INFO - StockPortfolioLogger - Fetching news for AGCO
-2025-04-24 09:57:44,746 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
-2025-04-24 09:57:44,747 - INFO - StockPortfolioLogger - Fetching news for BA
-2025-04-24 09:57:45,099 - INFO - StockPortfolioLogger - BA → 227 articles fetched
-2025-04-24 09:57:45,099 - INFO - StockPortfolioLogger - Fetching news for BG
-2025-04-24 09:57:45,459 - INFO - StockPortfolioLogger - BG → 192 articles fetched
-2025-04-24 09:57:45,460 - INFO - StockPortfolioLogger - Fetching news for CALM
-2025-04-24 09:57:45,806 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
-2025-04-24 09:57:45,806 - INFO - StockPortfolioLogger - Fetching news for CAT
-2025-04-24 09:57:46,176 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
-2025-04-24 09:57:46,176 - INFO - StockPortfolioLogger - Fetching news for CSCO
-2025-04-24 09:57:46,509 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
-2025-04-24 09:57:46,510 - INFO - StockPortfolioLogger - Fetching news for CVX
-2025-04-24 09:57:46,701 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
-2025-04-24 09:57:46,701 - INFO - StockPortfolioLogger - Fetching news for DDOG
-2025-04-24 09:57:47,242 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
-2025-04-24 09:57:47,242 - INFO - StockPortfolioLogger - Fetching news for DE
-2025-04-24 09:57:47,550 - INFO - StockPortfolioLogger - DE → 205 articles fetched
-2025-04-24 09:57:47,550 - INFO - StockPortfolioLogger - Fetching news for GRWG
-2025-04-24 09:57:47,886 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
-2025-04-24 09:57:47,886 - INFO - StockPortfolioLogger - Fetching news for HUM
-2025-04-24 09:57:48,200 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
-2025-04-24 09:57:48,200 - INFO - StockPortfolioLogger - Fetching news for IBKR
-2025-04-24 09:57:48,538 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
-2025-04-24 09:57:48,538 - INFO - StockPortfolioLogger - Fetching news for IEX
-2025-04-24 09:57:48,882 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
-2025-04-24 09:57:48,882 - INFO - StockPortfolioLogger - Fetching news for JPM
-2025-04-24 09:57:49,082 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
-2025-04-24 09:57:49,083 - INFO - StockPortfolioLogger - Fetching news for KO
-2025-04-24 09:57:49,465 - INFO - StockPortfolioLogger - KO → 232 articles fetched
-2025-04-24 09:57:49,465 - INFO - StockPortfolioLogger - Fetching news for LMT
-2025-04-24 09:57:49,863 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
-2025-04-24 09:57:49,863 - INFO - StockPortfolioLogger - Fetching news for MS
-2025-04-24 09:57:50,152 - INFO - StockPortfolioLogger - MS → 230 articles fetched
-2025-04-24 09:57:50,152 - INFO - StockPortfolioLogger - Fetching news for MSCI
-2025-04-24 09:57:50,498 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
-2025-04-24 09:57:50,498 - INFO - StockPortfolioLogger - Fetching news for MSFT
-2025-04-24 09:57:50,839 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
-2025-04-24 09:57:50,840 - INFO - StockPortfolioLogger - Fetching news for NFLX
-2025-04-24 09:57:51,187 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
-2025-04-24 09:57:51,187 - INFO - StockPortfolioLogger - Fetching news for OSK
-2025-04-24 09:57:51,486 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
-2025-04-24 09:57:51,487 - INFO - StockPortfolioLogger - Fetching news for PFE
-2025-04-24 09:57:51,688 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
-2025-04-24 09:57:51,688 - INFO - StockPortfolioLogger - Fetching news for PG
-2025-04-24 09:57:52,195 - INFO - StockPortfolioLogger - PG → 215 articles fetched
-2025-04-24 09:57:52,195 - INFO - StockPortfolioLogger - Fetching news for SPY
-2025-04-24 09:57:52,404 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
-2025-04-24 09:57:52,406 - INFO - StockPortfolioLogger - Fetching news for TMUS
-2025-04-24 09:57:52,899 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
-2025-04-24 09:57:52,945 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
-2025-04-24 10:01:22,419 - INFO - StockPortfolioLogger - Configuration loaded successfully.
-2025-04-24 10:01:24,381 - INFO - StockPortfolioLogger - Starting data injection process...
-2025-04-24 10:01:24,382 - INFO - StockPortfolioLogger - Fetching news for AAPL
-2025-04-24 10:01:24,852 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
-2025-04-24 10:01:24,853 - INFO - StockPortfolioLogger - Fetching news for ADAP
-2025-04-24 10:01:25,341 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
-2025-04-24 10:01:25,341 - INFO - StockPortfolioLogger - Fetching news for AGCO
-2025-04-24 10:01:25,853 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
-2025-04-24 10:01:25,853 - INFO - StockPortfolioLogger - Fetching news for BA
-2025-04-24 10:01:26,268 - INFO - StockPortfolioLogger - BA → 227 articles fetched
-2025-04-24 10:01:26,268 - INFO - StockPortfolioLogger - Fetching news for BG
-2025-04-24 10:01:26,846 - INFO - StockPortfolioLogger - BG → 192 articles fetched
-2025-04-24 10:01:26,846 - INFO - StockPortfolioLogger - Fetching news for CALM
-2025-04-24 10:01:27,239 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
-2025-04-24 10:01:27,239 - INFO - StockPortfolioLogger - Fetching news for CAT
-2025-04-24 10:01:27,602 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
-2025-04-24 10:01:27,602 - INFO - StockPortfolioLogger - Fetching news for CSCO
-2025-04-24 10:01:28,154 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
-2025-04-24 10:01:28,154 - INFO - StockPortfolioLogger - Fetching news for CVX
-2025-04-24 10:01:28,731 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
-2025-04-24 10:01:28,732 - INFO - StockPortfolioLogger - Fetching news for DDOG
-2025-04-24 10:01:29,098 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
-2025-04-24 10:01:29,099 - INFO - StockPortfolioLogger - Fetching news for DE
-2025-04-24 10:01:29,537 - INFO - StockPortfolioLogger - DE → 205 articles fetched
-2025-04-24 10:01:29,538 - INFO - StockPortfolioLogger - Fetching news for GRWG
-2025-04-24 10:01:29,884 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
-2025-04-24 10:01:29,885 - INFO - StockPortfolioLogger - Fetching news for HUM
-2025-04-24 10:01:30,301 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
-2025-04-24 10:01:30,302 - INFO - StockPortfolioLogger - Fetching news for IBKR
-2025-04-24 10:01:30,619 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
-2025-04-24 10:01:30,620 - INFO - StockPortfolioLogger - Fetching news for IEX
-2025-04-24 10:01:31,436 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
-2025-04-24 10:01:31,436 - INFO - StockPortfolioLogger - Fetching news for JPM
-2025-04-24 10:01:31,822 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
-2025-04-24 10:01:31,822 - INFO - StockPortfolioLogger - Fetching news for KO
-2025-04-24 10:01:32,279 - INFO - StockPortfolioLogger - KO → 232 articles fetched
-2025-04-24 10:01:32,280 - INFO - StockPortfolioLogger - Fetching news for LMT
-2025-04-24 10:01:32,595 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
-2025-04-24 10:01:32,595 - INFO - StockPortfolioLogger - Fetching news for MS
-2025-04-24 10:01:32,906 - INFO - StockPortfolioLogger - MS → 230 articles fetched
-2025-04-24 10:01:32,906 - INFO - StockPortfolioLogger - Fetching news for MSCI
-2025-04-24 10:01:33,244 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
-2025-04-24 10:01:33,245 - INFO - StockPortfolioLogger - Fetching news for MSFT
-2025-04-24 10:01:33,678 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
-2025-04-24 10:01:33,678 - INFO - StockPortfolioLogger - Fetching news for NFLX
-2025-04-24 10:01:34,052 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
-2025-04-24 10:01:34,053 - INFO - StockPortfolioLogger - Fetching news for OSK
-2025-04-24 10:01:34,395 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
-2025-04-24 10:01:34,395 - INFO - StockPortfolioLogger - Fetching news for PFE
-2025-04-24 10:01:34,770 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
-2025-04-24 10:01:34,770 - INFO - StockPortfolioLogger - Fetching news for PG
-2025-04-24 10:01:35,145 - INFO - StockPortfolioLogger - PG → 215 articles fetched
-2025-04-24 10:01:35,145 - INFO - StockPortfolioLogger - Fetching news for SPY
-2025-04-24 10:01:35,455 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
-2025-04-24 10:01:35,456 - INFO - StockPortfolioLogger - Fetching news for TMUS
-2025-04-24 10:01:35,951 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
-2025-04-24 10:01:36,012 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
-2025-04-24 10:02:15,371 - INFO - StockPortfolioLogger - Configuration loaded successfully.
-2025-04-24 10:02:17,548 - INFO - StockPortfolioLogger - Starting data injection process...
-2025-04-24 10:02:17,549 - INFO - StockPortfolioLogger - Fetching news for AAPL
-2025-04-24 10:02:17,982 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
-2025-04-24 10:02:17,982 - INFO - StockPortfolioLogger - Fetching news for ADAP
-2025-04-24 10:02:18,386 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
-2025-04-24 10:02:18,386 - INFO - StockPortfolioLogger - Fetching news for AGCO
-2025-04-24 10:02:18,796 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
-2025-04-24 10:02:18,797 - INFO - StockPortfolioLogger - Fetching news for BA
-2025-04-24 10:02:19,515 - INFO - StockPortfolioLogger - BA → 227 articles fetched
-2025-04-24 10:02:19,515 - INFO - StockPortfolioLogger - Fetching news for BG
-2025-04-24 10:02:20,016 - INFO - StockPortfolioLogger - BG → 192 articles fetched
-2025-04-24 10:02:20,016 - INFO - StockPortfolioLogger - Fetching news for CALM
-2025-04-24 10:02:20,423 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
-2025-04-24 10:02:20,424 - INFO - StockPortfolioLogger - Fetching news for CAT
-2025-04-24 10:02:20,800 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
-2025-04-24 10:02:20,801 - INFO - StockPortfolioLogger - Fetching news for CSCO
-2025-04-24 10:02:21,175 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
-2025-04-24 10:02:21,175 - INFO - StockPortfolioLogger - Fetching news for CVX
-2025-04-24 10:02:21,531 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
-2025-04-24 10:02:21,531 - INFO - StockPortfolioLogger - Fetching news for DDOG
-2025-04-24 10:02:21,822 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
-2025-04-24 10:02:21,822 - INFO - StockPortfolioLogger - Fetching news for DE
-2025-04-24 10:02:22,176 - INFO - StockPortfolioLogger - DE → 205 articles fetched
-2025-04-24 10:02:22,176 - INFO - StockPortfolioLogger - Fetching news for GRWG
-2025-04-24 10:02:22,543 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
-2025-04-24 10:02:22,543 - INFO - StockPortfolioLogger - Fetching news for HUM
-2025-04-24 10:02:22,887 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
-2025-04-24 10:02:22,888 - INFO - StockPortfolioLogger - Fetching news for IBKR
-2025-04-24 10:02:23,335 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
-2025-04-24 10:02:23,336 - INFO - StockPortfolioLogger - Fetching news for IEX
-2025-04-24 10:02:23,604 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
-2025-04-24 10:02:23,604 - INFO - StockPortfolioLogger - Fetching news for JPM
-2025-04-24 10:02:23,908 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
-2025-04-24 10:02:23,910 - INFO - StockPortfolioLogger - Fetching news for KO
-2025-04-24 10:02:24,197 - INFO - StockPortfolioLogger - KO → 232 articles fetched
-2025-04-24 10:02:24,197 - INFO - StockPortfolioLogger - Fetching news for LMT
-2025-04-24 10:02:24,691 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
-2025-04-24 10:02:24,692 - INFO - StockPortfolioLogger - Fetching news for MS
-2025-04-24 10:02:25,115 - INFO - StockPortfolioLogger - MS → 230 articles fetched
-2025-04-24 10:02:25,116 - INFO - StockPortfolioLogger - Fetching news for MSCI
-2025-04-24 10:02:25,437 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
-2025-04-24 10:02:25,437 - INFO - StockPortfolioLogger - Fetching news for MSFT
-2025-04-24 10:02:25,759 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
-2025-04-24 10:02:25,759 - INFO - StockPortfolioLogger - Fetching news for NFLX
-2025-04-24 10:02:26,117 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
-2025-04-24 10:02:26,117 - INFO - StockPortfolioLogger - Fetching news for OSK
-2025-04-24 10:02:26,514 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
-2025-04-24 10:02:26,515 - INFO - StockPortfolioLogger - Fetching news for PFE
-2025-04-24 10:02:26,851 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
-2025-04-24 10:02:26,851 - INFO - StockPortfolioLogger - Fetching news for PG
-2025-04-24 10:02:27,189 - INFO - StockPortfolioLogger - PG → 215 articles fetched
-2025-04-24 10:02:27,190 - INFO - StockPortfolioLogger - Fetching news for SPY
-2025-04-24 10:02:27,680 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
-2025-04-24 10:02:27,680 - INFO - StockPortfolioLogger - Fetching news for TMUS
-2025-04-24 10:02:28,018 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
-2025-04-24 10:02:28,065 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
-2025-04-24 10:05:46,932 - INFO - StockPortfolioLogger - Configuration loaded successfully.
-2025-04-24 10:05:49,171 - INFO - StockPortfolioLogger - Starting data injection process...
-2025-04-24 10:05:49,171 - INFO - StockPortfolioLogger - Fetching news for AAPL
-2025-04-24 10:05:49,633 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
-2025-04-24 10:05:49,634 - INFO - StockPortfolioLogger - Fetching news for ADAP
-2025-04-24 10:05:50,041 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
-2025-04-24 10:05:50,041 - INFO - StockPortfolioLogger - Fetching news for AGCO
-2025-04-24 10:05:50,560 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
-2025-04-24 10:05:50,561 - INFO - StockPortfolioLogger - Fetching news for BA
-2025-04-24 10:05:50,966 - INFO - StockPortfolioLogger - BA → 227 articles fetched
-2025-04-24 10:05:50,966 - INFO - StockPortfolioLogger - Fetching news for BG
-2025-04-24 10:05:51,381 - INFO - StockPortfolioLogger - BG → 192 articles fetched
-2025-04-24 10:05:51,382 - INFO - StockPortfolioLogger - Fetching news for CALM
-2025-04-24 10:05:51,965 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
-2025-04-24 10:05:51,965 - INFO - StockPortfolioLogger - Fetching news for CAT
-2025-04-24 10:05:52,293 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
-2025-04-24 10:05:52,293 - INFO - StockPortfolioLogger - Fetching news for CSCO
-2025-04-24 10:05:52,621 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
-2025-04-24 10:05:52,621 - INFO - StockPortfolioLogger - Fetching news for CVX
-2025-04-24 10:05:52,967 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
-2025-04-24 10:05:52,967 - INFO - StockPortfolioLogger - Fetching news for DDOG
-2025-04-24 10:05:53,271 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
-2025-04-24 10:05:53,272 - INFO - StockPortfolioLogger - Fetching news for DE
-2025-04-24 10:05:53,589 - INFO - StockPortfolioLogger - DE → 205 articles fetched
-2025-04-24 10:05:53,590 - INFO - StockPortfolioLogger - Fetching news for GRWG
-2025-04-24 10:05:53,837 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
-2025-04-24 10:05:53,837 - INFO - StockPortfolioLogger - Fetching news for HUM
-2025-04-24 10:05:54,155 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
-2025-04-24 10:05:54,155 - INFO - StockPortfolioLogger - Fetching news for IBKR
-2025-04-24 10:05:54,408 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
-2025-04-24 10:05:54,409 - INFO - StockPortfolioLogger - Fetching news for IEX
-2025-04-24 10:05:54,669 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
-2025-04-24 10:05:54,669 - INFO - StockPortfolioLogger - Fetching news for JPM
-2025-04-24 10:05:54,997 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
-2025-04-24 10:05:54,997 - INFO - StockPortfolioLogger - Fetching news for KO
-2025-04-24 10:05:55,388 - INFO - StockPortfolioLogger - KO → 232 articles fetched
-2025-04-24 10:05:55,389 - INFO - StockPortfolioLogger - Fetching news for LMT
-2025-04-24 10:05:55,942 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
-2025-04-24 10:05:55,943 - INFO - StockPortfolioLogger - Fetching news for MS
-2025-04-24 10:05:56,354 - INFO - StockPortfolioLogger - MS → 230 articles fetched
-2025-04-24 10:05:56,354 - INFO - StockPortfolioLogger - Fetching news for MSCI
-2025-04-24 10:05:56,631 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
-2025-04-24 10:05:56,631 - INFO - StockPortfolioLogger - Fetching news for MSFT
-2025-04-24 10:05:56,899 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
-2025-04-24 10:05:56,899 - INFO - StockPortfolioLogger - Fetching news for NFLX
-2025-04-24 10:05:57,140 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
-2025-04-24 10:05:57,141 - INFO - StockPortfolioLogger - Fetching news for OSK
-2025-04-24 10:05:57,437 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
-2025-04-24 10:05:57,437 - INFO - StockPortfolioLogger - Fetching news for PFE
-2025-04-24 10:05:57,694 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
-2025-04-24 10:05:57,695 - INFO - StockPortfolioLogger - Fetching news for PG
-2025-04-24 10:05:58,143 - INFO - StockPortfolioLogger - PG → 215 articles fetched
-2025-04-24 10:05:58,143 - INFO - StockPortfolioLogger - Fetching news for SPY
-2025-04-24 10:05:58,427 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
-2025-04-24 10:05:58,427 - INFO - StockPortfolioLogger - Fetching news for TMUS
-2025-04-24 10:05:58,681 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
-2025-04-24 10:05:58,681 - INFO - StockPortfolioLogger - Fetching news for GSPC
-2025-04-24 10:05:58,909 - INFO - StockPortfolioLogger - GSPC → 0 articles fetched
-2025-04-24 10:05:58,909 - INFO - StockPortfolioLogger - Fetching news for IXIC
-2025-04-24 10:05:59,176 - INFO - StockPortfolioLogger - IXIC → 0 articles fetched
-2025-04-24 10:05:59,221 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
-2025-04-24 11:14:56,912 - INFO - StockPortfolioLogger - Dow Jones data loaded successfully.
-2025-04-24 11:14:56,926 - INFO - StockPortfolioLogger - NASDAQ data loaded successfully.
-2025-04-24 11:14:56,941 - INFO - StockPortfolioLogger - S&P 500 data loaded successfully.
-2025-04-24 11:14:56,947 - INFO - StockPortfolioLogger - Portfolio data loaded successfully.
-2025-04-24 11:14:57,228 - INFO - StockPortfolioLogger - Portfolio prices data loaded successfully.
-2025-04-24 11:15:09,146 - INFO - StockPortfolioLogger - Configuration loaded successfully.
-2025-04-24 11:15:10,843 - INFO - StockPortfolioLogger - Starting data injection process...
-2025-04-24 11:15:10,844 - INFO - StockPortfolioLogger - Fetching news for AAPL
-2025-04-24 11:15:11,185 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
-2025-04-24 11:15:11,185 - INFO - StockPortfolioLogger - Fetching news for ADAP
-2025-04-24 11:15:11,689 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
-2025-04-24 11:15:11,690 - INFO - StockPortfolioLogger - Fetching news for AGCO
-2025-04-24 11:15:12,009 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
-2025-04-24 11:15:12,009 - INFO - StockPortfolioLogger - Fetching news for BA
-2025-04-24 11:15:12,410 - INFO - StockPortfolioLogger - BA → 227 articles fetched
-2025-04-24 11:15:12,410 - INFO - StockPortfolioLogger - Fetching news for BG
-2025-04-24 11:15:12,822 - INFO - StockPortfolioLogger - BG → 192 articles fetched
-2025-04-24 11:15:12,823 - INFO - StockPortfolioLogger - Fetching news for CALM
-2025-04-24 11:15:13,328 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
-2025-04-24 11:15:13,328 - INFO - StockPortfolioLogger - Fetching news for CAT
-2025-04-24 11:15:13,738 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
-2025-04-24 11:15:13,738 - INFO - StockPortfolioLogger - Fetching news for CSCO
-2025-04-24 11:15:14,130 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
-2025-04-24 11:15:14,130 - INFO - StockPortfolioLogger - Fetching news for CVX
-2025-04-24 11:15:14,470 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
-2025-04-24 11:15:14,471 - INFO - StockPortfolioLogger - Fetching news for DDOG
-2025-04-24 11:15:14,742 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
-2025-04-24 11:15:14,742 - INFO - StockPortfolioLogger - Fetching news for DE
-2025-04-24 11:15:15,012 - INFO - StockPortfolioLogger - DE → 205 articles fetched
-2025-04-24 11:15:15,013 - INFO - StockPortfolioLogger - Fetching news for GRWG
-2025-04-24 11:15:15,630 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
-2025-04-24 11:15:15,630 - INFO - StockPortfolioLogger - Fetching news for HUM
-2025-04-24 11:15:15,953 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
-2025-04-24 11:15:15,954 - INFO - StockPortfolioLogger - Fetching news for IBKR
-2025-04-24 11:15:16,383 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
-2025-04-24 11:15:16,383 - INFO - StockPortfolioLogger - Fetching news for IEX
-2025-04-24 11:15:16,877 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
-2025-04-24 11:15:16,878 - INFO - StockPortfolioLogger - Fetching news for JPM
-2025-04-24 11:15:17,125 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
-2025-04-24 11:15:17,125 - INFO - StockPortfolioLogger - Fetching news for KO
-2025-04-24 11:15:17,432 - INFO - StockPortfolioLogger - KO → 232 articles fetched
-2025-04-24 11:15:17,433 - INFO - StockPortfolioLogger - Fetching news for LMT
-2025-04-24 11:15:17,758 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
-2025-04-24 11:15:17,758 - INFO - StockPortfolioLogger - Fetching news for MS
-2025-04-24 11:15:18,117 - INFO - StockPortfolioLogger - MS → 230 articles fetched
-2025-04-24 11:15:18,117 - INFO - StockPortfolioLogger - Fetching news for MSCI
-2025-04-24 11:15:18,441 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
-2025-04-24 11:15:18,442 - INFO - StockPortfolioLogger - Fetching news for MSFT
-2025-04-24 11:15:18,684 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
-2025-04-24 11:15:18,684 - INFO - StockPortfolioLogger - Fetching news for NFLX
-2025-04-24 11:15:18,936 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
-2025-04-24 11:15:18,936 - INFO - StockPortfolioLogger - Fetching news for OSK
-2025-04-24 11:15:19,214 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
-2025-04-24 11:15:19,215 - INFO - StockPortfolioLogger - Fetching news for PFE
-2025-04-24 11:15:19,540 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
-2025-04-24 11:15:19,540 - INFO - StockPortfolioLogger - Fetching news for PG
-2025-04-24 11:15:19,879 - INFO - StockPortfolioLogger - PG → 215 articles fetched
-2025-04-24 11:15:19,879 - INFO - StockPortfolioLogger - Fetching news for SPY
-2025-04-24 11:15:20,220 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
-2025-04-24 11:15:20,221 - INFO - StockPortfolioLogger - Fetching news for TMUS
-2025-04-24 11:15:20,602 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
-2025-04-24 11:15:20,602 - INFO - StockPortfolioLogger - Fetching news for GSPC
-2025-04-24 11:15:20,813 - INFO - StockPortfolioLogger - GSPC → 0 articles fetched
-2025-04-24 11:15:20,814 - INFO - StockPortfolioLogger - Fetching news for IXIC
-2025-04-24 11:15:21,071 - INFO - StockPortfolioLogger - IXIC → 0 articles fetched
-2025-04-24 11:15:21,132 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
-2025-04-24 11:16:37,439 - INFO - StockPortfolioLogger - Configuration loaded successfully.
-2025-04-24 11:16:39,722 - INFO - StockPortfolioLogger - Starting data injection process...
-2025-04-24 11:16:39,725 - INFO - StockPortfolioLogger - Fetching news for AAPL
-2025-04-24 11:16:40,166 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
-2025-04-24 11:16:40,172 - INFO - StockPortfolioLogger - Fetching news for ADAP
-2025-04-24 11:16:40,671 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
-2025-04-24 11:16:40,671 - INFO - StockPortfolioLogger - Fetching news for AGCO
-2025-04-24 11:16:41,191 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
-2025-04-24 11:16:41,192 - INFO - StockPortfolioLogger - Fetching news for BA
-2025-04-24 11:16:41,602 - INFO - StockPortfolioLogger - BA → 227 articles fetched
-2025-04-24 11:16:41,603 - INFO - StockPortfolioLogger - Fetching news for BG
-2025-04-24 11:16:41,938 - INFO - StockPortfolioLogger - BG → 192 articles fetched
-2025-04-24 11:16:41,939 - INFO - StockPortfolioLogger - Fetching news for CALM
-2025-04-24 11:16:42,296 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
-2025-04-24 11:16:42,296 - INFO - StockPortfolioLogger - Fetching news for CAT
-2025-04-24 11:16:42,607 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
-2025-04-24 11:16:42,607 - INFO - StockPortfolioLogger - Fetching news for CSCO
-2025-04-24 11:16:43,039 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
-2025-04-24 11:16:43,039 - INFO - StockPortfolioLogger - Fetching news for CVX
-2025-04-24 11:16:43,340 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
-2025-04-24 11:16:43,341 - INFO - StockPortfolioLogger - Fetching news for DDOG
-2025-04-24 11:16:43,597 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
-2025-04-24 11:16:43,597 - INFO - StockPortfolioLogger - Fetching news for DE
-2025-04-24 11:16:43,966 - INFO - StockPortfolioLogger - DE → 205 articles fetched
-2025-04-24 11:16:43,967 - INFO - StockPortfolioLogger - Fetching news for GRWG
-2025-04-24 11:16:44,654 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
-2025-04-24 11:16:44,654 - INFO - StockPortfolioLogger - Fetching news for HUM
-2025-04-24 11:16:44,926 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
-2025-04-24 11:16:44,926 - INFO - StockPortfolioLogger - Fetching news for IBKR
-2025-04-24 11:16:45,311 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
-2025-04-24 11:16:45,312 - INFO - StockPortfolioLogger - Fetching news for IEX
-2025-04-24 11:16:45,678 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
-2025-04-24 11:16:45,679 - INFO - StockPortfolioLogger - Fetching news for JPM
-2025-04-24 11:16:46,145 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
-2025-04-24 11:16:46,152 - INFO - StockPortfolioLogger - Fetching news for KO
-2025-04-24 11:16:46,565 - INFO - StockPortfolioLogger - KO → 232 articles fetched
-2025-04-24 11:16:46,566 - INFO - StockPortfolioLogger - Fetching news for LMT
-2025-04-24 11:16:46,965 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
-2025-04-24 11:16:46,966 - INFO - StockPortfolioLogger - Fetching news for MS
-2025-04-24 11:16:47,448 - INFO - StockPortfolioLogger - MS → 230 articles fetched
-2025-04-24 11:16:47,449 - INFO - StockPortfolioLogger - Fetching news for MSCI
-2025-04-24 11:16:47,794 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
-2025-04-24 11:16:47,798 - INFO - StockPortfolioLogger - Fetching news for MSFT
-2025-04-24 11:16:48,116 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
-2025-04-24 11:16:48,117 - INFO - StockPortfolioLogger - Fetching news for NFLX
-2025-04-24 11:16:48,439 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
-2025-04-24 11:16:48,440 - INFO - StockPortfolioLogger - Fetching news for OSK
-2025-04-24 11:16:48,805 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
-2025-04-24 11:16:48,805 - INFO - StockPortfolioLogger - Fetching news for PFE
-2025-04-24 11:16:49,543 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
-2025-04-24 11:16:49,543 - INFO - StockPortfolioLogger - Fetching news for PG
-2025-04-24 11:16:49,867 - INFO - StockPortfolioLogger - PG → 215 articles fetched
-2025-04-24 11:16:49,868 - INFO - StockPortfolioLogger - Fetching news for SPY
-2025-04-24 11:16:50,337 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
-2025-04-24 11:16:50,337 - INFO - StockPortfolioLogger - Fetching news for TMUS
-2025-04-24 11:16:50,688 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
-2025-04-24 11:16:50,689 - INFO - StockPortfolioLogger - Fetching news for GSPC
-2025-04-24 11:16:50,910 - INFO - StockPortfolioLogger - GSPC → 0 articles fetched
-2025-04-24 11:16:50,912 - INFO - StockPortfolioLogger - Fetching news for IXIC
-2025-04-24 11:16:51,169 - INFO - StockPortfolioLogger - IXIC → 0 articles fetched
-2025-04-24 11:16:51,243 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
-2025-04-24 12:25:08,046 - INFO - StockPortfolioLogger - Configuration loaded successfully.
-2025-04-24 12:25:10,219 - INFO - StockPortfolioLogger - Starting data injection process...
-2025-04-24 12:25:10,220 - INFO - StockPortfolioLogger - Fetching news for AAPL
-2025-04-24 12:25:10,749 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
-2025-04-24 12:25:10,749 - INFO - StockPortfolioLogger - Fetching news for ADAP
-2025-04-24 12:25:11,158 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
-2025-04-24 12:25:11,158 - INFO - StockPortfolioLogger - Fetching news for AGCO
-2025-04-24 12:25:11,606 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
-2025-04-24 12:25:11,606 - INFO - StockPortfolioLogger - Fetching news for BA
-2025-04-24 12:25:11,943 - INFO - StockPortfolioLogger - BA → 227 articles fetched
-2025-04-24 12:25:11,943 - INFO - StockPortfolioLogger - Fetching news for BG
-2025-04-24 12:25:12,273 - INFO - StockPortfolioLogger - BG → 192 articles fetched
-2025-04-24 12:25:12,274 - INFO - StockPortfolioLogger - Fetching news for CALM
-2025-04-24 12:25:12,586 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
-2025-04-24 12:25:12,587 - INFO - StockPortfolioLogger - Fetching news for CAT
-2025-04-24 12:25:12,834 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
-2025-04-24 12:25:12,835 - INFO - StockPortfolioLogger - Fetching news for CSCO
-2025-04-24 12:25:13,113 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
-2025-04-24 12:25:13,114 - INFO - StockPortfolioLogger - Fetching news for CVX
-2025-04-24 12:25:13,456 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
-2025-04-24 12:25:13,456 - INFO - StockPortfolioLogger - Fetching news for DDOG
-2025-04-24 12:25:13,864 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
-2025-04-24 12:25:13,865 - INFO - StockPortfolioLogger - Fetching news for DE
-2025-04-24 12:25:14,229 - INFO - StockPortfolioLogger - DE → 205 articles fetched
-2025-04-24 12:25:14,229 - INFO - StockPortfolioLogger - Fetching news for GRWG
-2025-04-24 12:25:14,513 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
-2025-04-24 12:25:14,513 - INFO - StockPortfolioLogger - Fetching news for HUM
-2025-04-24 12:25:14,843 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
-2025-04-24 12:25:14,843 - INFO - StockPortfolioLogger - Fetching news for IBKR
-2025-04-24 12:25:15,237 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
-2025-04-24 12:25:15,237 - INFO - StockPortfolioLogger - Fetching news for IEX
-2025-04-24 12:25:15,567 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
-2025-04-24 12:25:15,567 - INFO - StockPortfolioLogger - Fetching news for JPM
-2025-04-24 12:25:15,988 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
-2025-04-24 12:25:15,988 - INFO - StockPortfolioLogger - Fetching news for KO
-2025-04-24 12:25:16,400 - INFO - StockPortfolioLogger - KO → 232 articles fetched
-2025-04-24 12:25:16,401 - INFO - StockPortfolioLogger - Fetching news for LMT
-2025-04-24 12:25:16,773 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
-2025-04-24 12:25:16,774 - INFO - StockPortfolioLogger - Fetching news for MS
-2025-04-24 12:25:17,290 - INFO - StockPortfolioLogger - MS → 230 articles fetched
-2025-04-24 12:25:17,291 - INFO - StockPortfolioLogger - Fetching news for MSCI
-2025-04-24 12:25:17,551 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
-2025-04-24 12:25:17,551 - INFO - StockPortfolioLogger - Fetching news for MSFT
-2025-04-24 12:25:17,808 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
-2025-04-24 12:25:17,809 - INFO - StockPortfolioLogger - Fetching news for NFLX
-2025-04-24 12:25:18,198 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
-2025-04-24 12:25:18,198 - INFO - StockPortfolioLogger - Fetching news for OSK
-2025-04-24 12:25:18,586 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
-2025-04-24 12:25:18,587 - INFO - StockPortfolioLogger - Fetching news for PFE
-2025-04-24 12:25:18,887 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
-2025-04-24 12:25:18,887 - INFO - StockPortfolioLogger - Fetching news for PG
-2025-04-24 12:25:19,143 - INFO - StockPortfolioLogger - PG → 215 articles fetched
-2025-04-24 12:25:19,144 - INFO - StockPortfolioLogger - Fetching news for SPY
-2025-04-24 12:25:19,463 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
-2025-04-24 12:25:19,464 - INFO - StockPortfolioLogger - Fetching news for TMUS
-2025-04-24 12:25:19,849 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
-2025-04-24 12:25:19,850 - INFO - StockPortfolioLogger - Fetching news for GSPC
-2025-04-24 12:25:20,119 - INFO - StockPortfolioLogger - GSPC → 0 articles fetched
-2025-04-24 12:25:20,119 - INFO - StockPortfolioLogger - Fetching news for IXIC
-2025-04-24 12:25:20,341 - INFO - StockPortfolioLogger - IXIC → 0 articles fetched
-2025-04-24 12:25:20,384 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
-2025-04-24 12:26:19,377 - INFO - StockPortfolioLogger - Configuration loaded successfully.
-2025-04-24 12:26:21,616 - INFO - StockPortfolioLogger - Starting data injection process...
-2025-04-24 12:26:21,617 - INFO - StockPortfolioLogger - Fetching news for AAPL
-2025-04-24 12:26:21,950 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
-2025-04-24 12:26:21,951 - INFO - StockPortfolioLogger - Fetching news for ADAP
-2025-04-24 12:26:22,341 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
-2025-04-24 12:26:22,341 - INFO - StockPortfolioLogger - Fetching news for AGCO
-2025-04-24 12:26:22,852 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
-2025-04-24 12:26:22,853 - INFO - StockPortfolioLogger - Fetching news for BA
-2025-04-24 12:26:23,268 - INFO - StockPortfolioLogger - BA → 227 articles fetched
-2025-04-24 12:26:23,269 - INFO - StockPortfolioLogger - Fetching news for BG
-2025-04-24 12:26:23,569 - INFO - StockPortfolioLogger - BG → 192 articles fetched
-2025-04-24 12:26:23,569 - INFO - StockPortfolioLogger - Fetching news for CALM
-2025-04-24 12:26:23,980 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
-2025-04-24 12:26:23,981 - INFO - StockPortfolioLogger - Fetching news for CAT
-2025-04-24 12:26:24,326 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
-2025-04-24 12:26:24,326 - INFO - StockPortfolioLogger - Fetching news for CSCO
-2025-04-24 12:26:24,624 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
-2025-04-24 12:26:24,625 - INFO - StockPortfolioLogger - Fetching news for CVX
-2025-04-24 12:26:24,901 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
-2025-04-24 12:26:24,902 - INFO - StockPortfolioLogger - Fetching news for DDOG
-2025-04-24 12:26:25,204 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
-2025-04-24 12:26:25,204 - INFO - StockPortfolioLogger - Fetching news for DE
-2025-04-24 12:26:25,521 - INFO - StockPortfolioLogger - DE → 205 articles fetched
-2025-04-24 12:26:25,522 - INFO - StockPortfolioLogger - Fetching news for GRWG
-2025-04-24 12:26:25,788 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
-2025-04-24 12:26:25,789 - INFO - StockPortfolioLogger - Fetching news for HUM
-2025-04-24 12:26:26,157 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
-2025-04-24 12:26:26,157 - INFO - StockPortfolioLogger - Fetching news for IBKR
-2025-04-24 12:26:26,393 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
-2025-04-24 12:26:26,394 - INFO - StockPortfolioLogger - Fetching news for IEX
-2025-04-24 12:26:26,632 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
-2025-04-24 12:26:26,632 - INFO - StockPortfolioLogger - Fetching news for JPM
-2025-04-24 12:26:26,922 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
-2025-04-24 12:26:26,922 - INFO - StockPortfolioLogger - Fetching news for KO
-2025-04-24 12:26:27,185 - INFO - StockPortfolioLogger - KO → 232 articles fetched
-2025-04-24 12:26:27,185 - INFO - StockPortfolioLogger - Fetching news for LMT
-2025-04-24 12:26:27,510 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
-2025-04-24 12:26:27,510 - INFO - StockPortfolioLogger - Fetching news for MS
-2025-04-24 12:26:27,794 - INFO - StockPortfolioLogger - MS → 230 articles fetched
-2025-04-24 12:26:27,794 - INFO - StockPortfolioLogger - Fetching news for MSCI
-2025-04-24 12:26:28,029 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
-2025-04-24 12:26:28,030 - INFO - StockPortfolioLogger - Fetching news for MSFT
-2025-04-24 12:26:28,330 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
-2025-04-24 12:26:28,330 - INFO - StockPortfolioLogger - Fetching news for NFLX
-2025-04-24 12:26:28,563 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
-2025-04-24 12:26:28,564 - INFO - StockPortfolioLogger - Fetching news for OSK
-2025-04-24 12:26:28,848 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
-2025-04-24 12:26:28,848 - INFO - StockPortfolioLogger - Fetching news for PFE
-2025-04-24 12:26:29,104 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
-2025-04-24 12:26:29,104 - INFO - StockPortfolioLogger - Fetching news for PG
-2025-04-24 12:26:29,425 - INFO - StockPortfolioLogger - PG → 215 articles fetched
-2025-04-24 12:26:29,425 - INFO - StockPortfolioLogger - Fetching news for SPY
-2025-04-24 12:26:29,678 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
-2025-04-24 12:26:29,678 - INFO - StockPortfolioLogger - Fetching news for TMUS
-2025-04-24 12:26:29,931 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
-2025-04-24 12:26:29,931 - INFO - StockPortfolioLogger - Fetching news for GSPC
-2025-04-24 12:26:30,161 - INFO - StockPortfolioLogger - GSPC → 0 articles fetched
-2025-04-24 12:26:30,162 - INFO - StockPortfolioLogger - Fetching news for IXIC
-2025-04-24 12:26:30,410 - INFO - StockPortfolioLogger - IXIC → 0 articles fetched
-2025-04-24 12:26:30,446 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
+2025-04-24 15:11:37,986 - INFO - StockPortfolioLogger - Configuration loaded successfully.
+2025-04-24 15:11:44,325 - INFO - StockPortfolioLogger - Dow Jones data loaded successfully.
+2025-04-24 15:11:44,340 - INFO - StockPortfolioLogger - NASDAQ data loaded successfully.
+2025-04-24 15:11:44,357 - INFO - StockPortfolioLogger - S&P 500 data loaded successfully.
+2025-04-24 15:11:44,362 - INFO - StockPortfolioLogger - Portfolio data loaded successfully.
+2025-04-24 15:11:44,687 - INFO - StockPortfolioLogger - Portfolio prices data loaded successfully.
+2025-04-24 15:11:44,688 - DEBUG - StockPortfolioLogger - Dow Jones 
+         Date Ticker          Open          High           Low         Close      Adjusted   Returns     Volume
+0  2020-01-02    DJI  28638.970703  28872.800781  28627.769531  28868.800781  28868.800781       NaN  251820000
+1  2020-01-03    DJI  28553.330078  28716.310547  28500.359375  28634.880859  28634.880859 -0.008103  239590000
+2  2020-01-06    DJI  28465.500000  28708.019531  28418.630859  28703.380859  28703.380859  0.002392  252760000
+3  2020-01-07    DJI  28639.179688  28685.500000  28565.279297  28583.679688  28583.679688 -0.004170  258900000
+4  2020-01-08    DJI  28556.140625  28866.179688  28522.509766  28745.089844  28745.089844  0.005647  291750000
+2025-04-24 15:11:44,781 - DEBUG - StockPortfolioLogger - NASDAQ 
+         Date Ticker         Open         High          Low        Close     Adjusted   Returns      Volume
+0  2020-01-02   IXIC  9039.459961  9093.429688  9010.889648  9092.190430  9092.190430       NaN  2862700000
+1  2020-01-03   IXIC  8976.429688  9065.759766  8976.429688  9020.769531  9020.769531 -0.007855  2586520000
+2  2020-01-06   IXIC  8943.500000  9072.410156  8943.500000  9071.469727  9071.469727  0.005620  2810450000
+3  2020-01-07   IXIC  9076.639648  9091.929688  9042.549805  9068.580078  9068.580078 -0.000319  2381740000
+4  2020-01-08   IXIC  9068.030273  9168.889648  9059.379883  9129.240234  9129.240234  0.006689  2472620000
+2025-04-24 15:11:44,878 - DEBUG - StockPortfolioLogger - S&P 500 
+         Date Ticker         Open         High          Low        Close     Adjusted   Returns      Volume
+0  2020-01-02   GSPC  3244.669922  3258.139893  3235.530029  3257.850098  3257.850098       NaN  3459930000
+1  2020-01-03   GSPC  3226.360107  3246.149902  3222.340088  3234.850098  3234.850098 -0.007060  3484700000
+2  2020-01-06   GSPC  3217.550049  3246.840088  3214.639893  3246.280029  3246.280029  0.003533  3702460000
+3  2020-01-07   GSPC  3241.860107  3244.909912  3232.429932  3237.179932  3237.179932 -0.002803  3435910000
+4  2020-01-08   GSPC  3238.590088  3267.070068  3236.669922  3253.050049  3253.050049  0.004902  3726840000
+2025-04-24 15:11:44,957 - DEBUG - StockPortfolioLogger - Portfolio 
+  Ticker  Quantity                Sector       Close    Weight
+0   AAPL         1                    IT  218.270004  3.461290
+1   ADAP         1       Pharmaceuticals    0.291000  0.004615
+2   AGCO         1           Agriculture   93.089996  1.476206
+3     BA         2  Military Engineering  178.110001  2.824439
+4     BG         4           Agriculture   73.250000  1.161586
+2025-04-24 15:11:45,010 - DEBUG - StockPortfolioLogger - Portfolio Prices 
+         Date Ticker        Open        High         Low       Close    Adjusted   Returns    Volume
+0  2020-01-03    JPM  137.500000  139.229996  137.080002  138.339996  119.874138 -0.013197  10386800
+1  2020-01-03     KO   54.320000   54.990002   54.090000   54.689999   46.494698 -0.005455  11354500
+2  2020-01-03    LMT  404.019989  417.170013  403.000000  413.739990  359.312317  0.035981   2990100
+3  2020-01-03     MS   51.220001   51.450001   50.830002   51.200001   43.273079 -0.016142   6706000
+4  2020-01-03   MSCI  262.200012  263.579987  259.269989  260.750000  248.019470 -0.019921    459700
+2025-04-24 15:11:48,679 - INFO - StockPortfolioLogger - Configuration loaded successfully.
+2025-04-24 15:11:50,749 - INFO - StockPortfolioLogger - Starting data injection process...
+2025-04-24 15:11:50,750 - INFO - StockPortfolioLogger - Fetching news for AAPL
+2025-04-24 15:11:50,756 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:51,034 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=AAPL&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:51,151 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
+2025-04-24 15:11:51,152 - INFO - StockPortfolioLogger - Fetching news for ADAP
+2025-04-24 15:11:51,155 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:51,483 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=ADAP&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:51,509 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
+2025-04-24 15:11:51,509 - INFO - StockPortfolioLogger - Fetching news for AGCO
+2025-04-24 15:11:51,513 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:51,852 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=AGCO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:51,863 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
+2025-04-24 15:11:51,864 - INFO - StockPortfolioLogger - Fetching news for BA
+2025-04-24 15:11:51,866 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:52,091 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=BA&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:52,170 - INFO - StockPortfolioLogger - BA → 227 articles fetched
+2025-04-24 15:11:52,171 - INFO - StockPortfolioLogger - Fetching news for BG
+2025-04-24 15:11:52,174 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:52,571 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=BG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:52,582 - INFO - StockPortfolioLogger - BG → 192 articles fetched
+2025-04-24 15:11:52,582 - INFO - StockPortfolioLogger - Fetching news for CALM
+2025-04-24 15:11:52,585 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:52,979 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CALM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:53,062 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
+2025-04-24 15:11:53,062 - INFO - StockPortfolioLogger - Fetching news for CAT
+2025-04-24 15:11:53,065 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:53,287 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CAT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:53,452 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
+2025-04-24 15:11:53,455 - INFO - StockPortfolioLogger - Fetching news for CSCO
+2025-04-24 15:11:53,462 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:53,716 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CSCO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:53,748 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
+2025-04-24 15:11:53,749 - INFO - StockPortfolioLogger - Fetching news for CVX
+2025-04-24 15:11:53,753 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:53,996 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CVX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:54,241 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
+2025-04-24 15:11:54,245 - INFO - StockPortfolioLogger - Fetching news for DDOG
+2025-04-24 15:11:54,248 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:54,477 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=DDOG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:54,756 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
+2025-04-24 15:11:54,756 - INFO - StockPortfolioLogger - Fetching news for DE
+2025-04-24 15:11:54,759 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:55,010 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=DE&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:55,071 - INFO - StockPortfolioLogger - DE → 205 articles fetched
+2025-04-24 15:11:55,072 - INFO - StockPortfolioLogger - Fetching news for GRWG
+2025-04-24 15:11:55,076 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:55,361 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=GRWG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:55,500 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
+2025-04-24 15:11:55,500 - INFO - StockPortfolioLogger - Fetching news for HUM
+2025-04-24 15:11:55,504 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:55,743 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=HUM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:55,869 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
+2025-04-24 15:11:55,870 - INFO - StockPortfolioLogger - Fetching news for IBKR
+2025-04-24 15:11:55,874 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:56,121 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IBKR&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:56,186 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
+2025-04-24 15:11:56,186 - INFO - StockPortfolioLogger - Fetching news for IEX
+2025-04-24 15:11:56,189 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:56,421 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IEX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:56,571 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
+2025-04-24 15:11:56,572 - INFO - StockPortfolioLogger - Fetching news for JPM
+2025-04-24 15:11:56,575 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:56,822 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=JPM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:56,993 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
+2025-04-24 15:11:56,993 - INFO - StockPortfolioLogger - Fetching news for KO
+2025-04-24 15:11:56,996 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:57,257 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=KO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:57,459 - INFO - StockPortfolioLogger - KO → 232 articles fetched
+2025-04-24 15:11:57,460 - INFO - StockPortfolioLogger - Fetching news for LMT
+2025-04-24 15:11:57,465 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:57,745 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=LMT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:57,860 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
+2025-04-24 15:11:57,861 - INFO - StockPortfolioLogger - Fetching news for MS
+2025-04-24 15:11:57,865 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:58,168 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MS&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:58,192 - INFO - StockPortfolioLogger - MS → 230 articles fetched
+2025-04-24 15:11:58,193 - INFO - StockPortfolioLogger - Fetching news for MSCI
+2025-04-24 15:11:58,195 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:58,473 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MSCI&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:58,646 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
+2025-04-24 15:11:58,646 - INFO - StockPortfolioLogger - Fetching news for MSFT
+2025-04-24 15:11:58,652 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:58,898 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MSFT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:58,948 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
+2025-04-24 15:11:58,949 - INFO - StockPortfolioLogger - Fetching news for NFLX
+2025-04-24 15:11:58,953 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:59,398 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=NFLX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:59,420 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
+2025-04-24 15:11:59,422 - INFO - StockPortfolioLogger - Fetching news for OSK
+2025-04-24 15:11:59,436 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:11:59,758 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=OSK&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:11:59,937 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
+2025-04-24 15:11:59,940 - INFO - StockPortfolioLogger - Fetching news for PFE
+2025-04-24 15:11:59,949 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:12:00,454 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=PFE&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:12:00,500 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
+2025-04-24 15:12:00,504 - INFO - StockPortfolioLogger - Fetching news for PG
+2025-04-24 15:12:00,513 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:12:00,803 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=PG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:12:00,969 - INFO - StockPortfolioLogger - PG → 215 articles fetched
+2025-04-24 15:12:00,972 - INFO - StockPortfolioLogger - Fetching news for SPY
+2025-04-24 15:12:00,983 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:12:01,509 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=SPY&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:12:01,521 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
+2025-04-24 15:12:01,521 - INFO - StockPortfolioLogger - Fetching news for TMUS
+2025-04-24 15:12:01,524 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:12:01,864 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=TMUS&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:12:01,878 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
+2025-04-24 15:12:01,878 - INFO - StockPortfolioLogger - Fetching news for GSPC
+2025-04-24 15:12:01,883 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:12:02,204 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=GSPC&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:12:02,208 - INFO - StockPortfolioLogger - GSPC → 0 articles fetched
+2025-04-24 15:12:02,208 - INFO - StockPortfolioLogger - Fetching news for IXIC
+2025-04-24 15:12:02,216 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 15:12:02,547 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IXIC&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 15:12:02,550 - INFO - StockPortfolioLogger - IXIC → 0 articles fetched
+2025-04-24 15:12:02,662 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
+2025-04-24 15:12:02,663 - DEBUG - StockPortfolioLogger -   ticker                                           headline  ...                                                url source
+0   AAPL  Apple's AI shakeup: They might not be 'moving ...  ...  https://finnhub.io/api/news?id=28df6f8c82b485d...  Yahoo
+1   AAPL  Apple (AAPL) Eyes AI-Powered Future Despite De...  ...  https://finnhub.io/api/news?id=47a2acfb39cc93c...  Yahoo
+2   AAPL  Apple, in effort to turn around Siri, shakes u...  ...  https://finnhub.io/api/news?id=78367bba2513b3e...  Yahoo
+3   AAPL  Accenture reports Q2 beat, Apple TV+ losing $1...  ...  https://finnhub.io/api/news?id=7fa6ca959283b70...  Yahoo
+4   AAPL  Report: Apple Reassigns Siri Development to Vi...  ...  https://finnhub.io/api/news?id=8d5760e25ac6966...  Yahoo
+
+[5 rows x 6 columns]
+2025-04-24 17:36:46,472 - INFO - StockPortfolioLogger - Configuration loaded successfully.
+2025-04-24 17:36:46,856 - INFO - StockPortfolioLogger - Starting data injection process...
+2025-04-24 17:36:46,856 - INFO - StockPortfolioLogger - Fetching news for AAPL
+2025-04-24 17:36:46,862 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:47,222 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=AAPL&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:47,310 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
+2025-04-24 17:36:47,310 - INFO - StockPortfolioLogger - Fetching news for ADAP
+2025-04-24 17:36:47,314 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:47,690 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=ADAP&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:47,699 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
+2025-04-24 17:36:47,700 - INFO - StockPortfolioLogger - Fetching news for AGCO
+2025-04-24 17:36:47,704 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:48,201 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=AGCO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:48,217 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
+2025-04-24 17:36:48,218 - INFO - StockPortfolioLogger - Fetching news for BA
+2025-04-24 17:36:48,223 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:48,610 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=BA&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:48,726 - INFO - StockPortfolioLogger - BA → 227 articles fetched
+2025-04-24 17:36:48,726 - INFO - StockPortfolioLogger - Fetching news for BG
+2025-04-24 17:36:48,730 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:49,208 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=BG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:49,391 - INFO - StockPortfolioLogger - BG → 192 articles fetched
+2025-04-24 17:36:49,394 - INFO - StockPortfolioLogger - Fetching news for CALM
+2025-04-24 17:36:49,398 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:49,723 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CALM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:49,808 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
+2025-04-24 17:36:49,809 - INFO - StockPortfolioLogger - Fetching news for CAT
+2025-04-24 17:36:49,815 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:50,109 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CAT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:50,288 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
+2025-04-24 17:36:50,289 - INFO - StockPortfolioLogger - Fetching news for CSCO
+2025-04-24 17:36:50,292 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:50,508 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CSCO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:50,590 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
+2025-04-24 17:36:50,590 - INFO - StockPortfolioLogger - Fetching news for CVX
+2025-04-24 17:36:50,594 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:50,874 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CVX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:50,987 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
+2025-04-24 17:36:50,988 - INFO - StockPortfolioLogger - Fetching news for DDOG
+2025-04-24 17:36:50,992 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:51,215 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=DDOG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:51,490 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
+2025-04-24 17:36:51,491 - INFO - StockPortfolioLogger - Fetching news for DE
+2025-04-24 17:36:51,493 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:51,779 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=DE&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:51,885 - INFO - StockPortfolioLogger - DE → 205 articles fetched
+2025-04-24 17:36:51,885 - INFO - StockPortfolioLogger - Fetching news for GRWG
+2025-04-24 17:36:51,889 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:52,193 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=GRWG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:52,242 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
+2025-04-24 17:36:52,243 - INFO - StockPortfolioLogger - Fetching news for HUM
+2025-04-24 17:36:52,247 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:52,742 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=HUM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:52,762 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
+2025-04-24 17:36:52,763 - INFO - StockPortfolioLogger - Fetching news for IBKR
+2025-04-24 17:36:52,767 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:53,018 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IBKR&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:53,073 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
+2025-04-24 17:36:53,074 - INFO - StockPortfolioLogger - Fetching news for IEX
+2025-04-24 17:36:53,078 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:53,353 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IEX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:53,483 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
+2025-04-24 17:36:53,483 - INFO - StockPortfolioLogger - Fetching news for JPM
+2025-04-24 17:36:53,488 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:53,730 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=JPM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:53,921 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
+2025-04-24 17:36:53,921 - INFO - StockPortfolioLogger - Fetching news for KO
+2025-04-24 17:36:53,927 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:54,168 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=KO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:54,348 - INFO - StockPortfolioLogger - KO → 232 articles fetched
+2025-04-24 17:36:54,349 - INFO - StockPortfolioLogger - Fetching news for LMT
+2025-04-24 17:36:54,353 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:54,612 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=LMT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:54,787 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
+2025-04-24 17:36:54,790 - INFO - StockPortfolioLogger - Fetching news for MS
+2025-04-24 17:36:54,795 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:55,026 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MS&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:55,199 - INFO - StockPortfolioLogger - MS → 230 articles fetched
+2025-04-24 17:36:55,201 - INFO - StockPortfolioLogger - Fetching news for MSCI
+2025-04-24 17:36:55,207 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:55,444 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MSCI&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:55,542 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
+2025-04-24 17:36:55,543 - INFO - StockPortfolioLogger - Fetching news for MSFT
+2025-04-24 17:36:55,548 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:55,781 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MSFT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:55,963 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
+2025-04-24 17:36:55,968 - INFO - StockPortfolioLogger - Fetching news for NFLX
+2025-04-24 17:36:55,971 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:56,216 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=NFLX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:56,333 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
+2025-04-24 17:36:56,333 - INFO - StockPortfolioLogger - Fetching news for OSK
+2025-04-24 17:36:56,337 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:56,626 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=OSK&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:56,669 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
+2025-04-24 17:36:56,669 - INFO - StockPortfolioLogger - Fetching news for PFE
+2025-04-24 17:36:56,673 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:56,898 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=PFE&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:56,913 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
+2025-04-24 17:36:56,914 - INFO - StockPortfolioLogger - Fetching news for PG
+2025-04-24 17:36:56,917 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:57,150 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=PG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:57,316 - INFO - StockPortfolioLogger - PG → 215 articles fetched
+2025-04-24 17:36:57,317 - INFO - StockPortfolioLogger - Fetching news for SPY
+2025-04-24 17:36:57,320 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:57,564 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=SPY&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:57,702 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
+2025-04-24 17:36:57,703 - INFO - StockPortfolioLogger - Fetching news for TMUS
+2025-04-24 17:36:57,707 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:57,961 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=TMUS&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:57,974 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
+2025-04-24 17:36:57,975 - INFO - StockPortfolioLogger - Fetching news for GSPC
+2025-04-24 17:36:57,979 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:58,209 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=GSPC&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:58,216 - INFO - StockPortfolioLogger - GSPC → 0 articles fetched
+2025-04-24 17:36:58,219 - INFO - StockPortfolioLogger - Fetching news for IXIC
+2025-04-24 17:36:58,224 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:36:58,460 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IXIC&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:36:58,463 - INFO - StockPortfolioLogger - IXIC → 0 articles fetched
+2025-04-24 17:36:58,516 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
+2025-04-24 17:36:58,518 - DEBUG - StockPortfolioLogger -   ticker                                           headline  ...                                                url source
+0   AAPL  Apple's AI shakeup: They might not be 'moving ...  ...  https://finnhub.io/api/news?id=28df6f8c82b485d...  Yahoo
+1   AAPL  Apple (AAPL) Eyes AI-Powered Future Despite De...  ...  https://finnhub.io/api/news?id=47a2acfb39cc93c...  Yahoo
+2   AAPL  Apple, in effort to turn around Siri, shakes u...  ...  https://finnhub.io/api/news?id=78367bba2513b3e...  Yahoo
+3   AAPL  Accenture reports Q2 beat, Apple TV+ losing $1...  ...  https://finnhub.io/api/news?id=7fa6ca959283b70...  Yahoo
+4   AAPL  Report: Apple Reassigns Siri Development to Vi...  ...  https://finnhub.io/api/news?id=8d5760e25ac6966...  Yahoo
+
+[5 rows x 6 columns]
+2025-04-24 17:36:59,141 - INFO - StockPortfolioLogger - Dow Jones data loaded successfully.
+2025-04-24 17:36:59,159 - INFO - StockPortfolioLogger - NASDAQ data loaded successfully.
+2025-04-24 17:36:59,179 - INFO - StockPortfolioLogger - S&P 500 data loaded successfully.
+2025-04-24 17:36:59,190 - INFO - StockPortfolioLogger - Portfolio data loaded successfully.
+2025-04-24 17:36:59,470 - INFO - StockPortfolioLogger - Portfolio prices data loaded successfully.
+2025-04-24 17:36:59,471 - DEBUG - StockPortfolioLogger - Dow Jones 
+         Date Ticker          Open          High           Low         Close      Adjusted   Returns     Volume
+0  2020-01-02    DJI  28638.970703  28872.800781  28627.769531  28868.800781  28868.800781       NaN  251820000
+1  2020-01-03    DJI  28553.330078  28716.310547  28500.359375  28634.880859  28634.880859 -0.008103  239590000
+2  2020-01-06    DJI  28465.500000  28708.019531  28418.630859  28703.380859  28703.380859  0.002392  252760000
+3  2020-01-07    DJI  28639.179688  28685.500000  28565.279297  28583.679688  28583.679688 -0.004170  258900000
+4  2020-01-08    DJI  28556.140625  28866.179688  28522.509766  28745.089844  28745.089844  0.005647  291750000
+2025-04-24 17:36:59,542 - DEBUG - StockPortfolioLogger - NASDAQ 
+         Date Ticker         Open         High          Low        Close     Adjusted   Returns      Volume
+0  2020-01-02   IXIC  9039.459961  9093.429688  9010.889648  9092.190430  9092.190430       NaN  2862700000
+1  2020-01-03   IXIC  8976.429688  9065.759766  8976.429688  9020.769531  9020.769531 -0.007855  2586520000
+2  2020-01-06   IXIC  8943.500000  9072.410156  8943.500000  9071.469727  9071.469727  0.005620  2810450000
+3  2020-01-07   IXIC  9076.639648  9091.929688  9042.549805  9068.580078  9068.580078 -0.000319  2381740000
+4  2020-01-08   IXIC  9068.030273  9168.889648  9059.379883  9129.240234  9129.240234  0.006689  2472620000
+2025-04-24 17:36:59,618 - DEBUG - StockPortfolioLogger - S&P 500 
+         Date Ticker         Open         High          Low        Close     Adjusted   Returns      Volume
+0  2020-01-02   GSPC  3244.669922  3258.139893  3235.530029  3257.850098  3257.850098       NaN  3459930000
+1  2020-01-03   GSPC  3226.360107  3246.149902  3222.340088  3234.850098  3234.850098 -0.007060  3484700000
+2  2020-01-06   GSPC  3217.550049  3246.840088  3214.639893  3246.280029  3246.280029  0.003533  3702460000
+3  2020-01-07   GSPC  3241.860107  3244.909912  3232.429932  3237.179932  3237.179932 -0.002803  3435910000
+4  2020-01-08   GSPC  3238.590088  3267.070068  3236.669922  3253.050049  3253.050049  0.004902  3726840000
+2025-04-24 17:36:59,689 - DEBUG - StockPortfolioLogger - Portfolio 
+  Ticker  Quantity                Sector       Close    Weight
+0   AAPL         1                    IT  218.270004  3.461290
+1   ADAP         1       Pharmaceuticals    0.291000  0.004615
+2   AGCO         1           Agriculture   93.089996  1.476206
+3     BA         2  Military Engineering  178.110001  2.824439
+4     BG         4           Agriculture   73.250000  1.161586
+2025-04-24 17:36:59,734 - DEBUG - StockPortfolioLogger - Portfolio Prices 
+         Date Ticker        Open        High         Low       Close    Adjusted   Returns    Volume
+0  2020-01-03    JPM  137.500000  139.229996  137.080002  138.339996  119.874138 -0.013197  10386800
+1  2020-01-03     KO   54.320000   54.990002   54.090000   54.689999   46.494698 -0.005455  11354500
+2  2020-01-03    LMT  404.019989  417.170013  403.000000  413.739990  359.312317  0.035981   2990100
+3  2020-01-03     MS   51.220001   51.450001   50.830002   51.200001   43.273079 -0.016142   6706000
+4  2020-01-03   MSCI  262.200012  263.579987  259.269989  260.750000  248.019470 -0.019921    459700
+2025-04-24 17:37:13,349 - INFO - StockPortfolioLogger - Configuration loaded successfully.
+2025-04-24 17:37:13,752 - INFO - StockPortfolioLogger - Starting data injection process...
+2025-04-24 17:37:13,752 - INFO - StockPortfolioLogger - Fetching news for AAPL
+2025-04-24 17:37:13,756 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:14,109 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=AAPL&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:14,230 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
+2025-04-24 17:37:14,231 - INFO - StockPortfolioLogger - Fetching news for ADAP
+2025-04-24 17:37:14,234 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:14,621 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=ADAP&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:14,735 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
+2025-04-24 17:37:14,737 - INFO - StockPortfolioLogger - Fetching news for AGCO
+2025-04-24 17:37:14,741 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:14,970 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=AGCO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:15,133 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
+2025-04-24 17:37:15,133 - INFO - StockPortfolioLogger - Fetching news for BA
+2025-04-24 17:37:15,136 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:15,377 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=BA&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:15,475 - INFO - StockPortfolioLogger - BA → 227 articles fetched
+2025-04-24 17:37:15,475 - INFO - StockPortfolioLogger - Fetching news for BG
+2025-04-24 17:37:15,479 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:15,725 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=BG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:15,769 - INFO - StockPortfolioLogger - BG → 192 articles fetched
+2025-04-24 17:37:15,771 - INFO - StockPortfolioLogger - Fetching news for CALM
+2025-04-24 17:37:15,777 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:16,014 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CALM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:16,134 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
+2025-04-24 17:37:16,134 - INFO - StockPortfolioLogger - Fetching news for CAT
+2025-04-24 17:37:16,138 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:16,366 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CAT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:16,521 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
+2025-04-24 17:37:16,522 - INFO - StockPortfolioLogger - Fetching news for CSCO
+2025-04-24 17:37:16,527 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:16,759 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CSCO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:16,807 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
+2025-04-24 17:37:16,808 - INFO - StockPortfolioLogger - Fetching news for CVX
+2025-04-24 17:37:16,812 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:17,049 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CVX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:17,199 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
+2025-04-24 17:37:17,200 - INFO - StockPortfolioLogger - Fetching news for DDOG
+2025-04-24 17:37:17,203 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:17,631 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=DDOG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:17,852 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
+2025-04-24 17:37:17,853 - INFO - StockPortfolioLogger - Fetching news for DE
+2025-04-24 17:37:17,855 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:18,297 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=DE&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:18,482 - INFO - StockPortfolioLogger - DE → 205 articles fetched
+2025-04-24 17:37:18,482 - INFO - StockPortfolioLogger - Fetching news for GRWG
+2025-04-24 17:37:18,485 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:18,945 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=GRWG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:19,100 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
+2025-04-24 17:37:19,101 - INFO - StockPortfolioLogger - Fetching news for HUM
+2025-04-24 17:37:19,114 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:19,379 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=HUM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:19,397 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
+2025-04-24 17:37:19,398 - INFO - StockPortfolioLogger - Fetching news for IBKR
+2025-04-24 17:37:19,402 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:19,721 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IBKR&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:19,796 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
+2025-04-24 17:37:19,796 - INFO - StockPortfolioLogger - Fetching news for IEX
+2025-04-24 17:37:19,800 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:20,050 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IEX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:20,187 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
+2025-04-24 17:37:20,189 - INFO - StockPortfolioLogger - Fetching news for JPM
+2025-04-24 17:37:20,203 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:20,476 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=JPM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:20,640 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
+2025-04-24 17:37:20,641 - INFO - StockPortfolioLogger - Fetching news for KO
+2025-04-24 17:37:20,644 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:20,860 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=KO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:20,978 - INFO - StockPortfolioLogger - KO → 232 articles fetched
+2025-04-24 17:37:20,980 - INFO - StockPortfolioLogger - Fetching news for LMT
+2025-04-24 17:37:20,986 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:21,194 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=LMT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:21,238 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
+2025-04-24 17:37:21,239 - INFO - StockPortfolioLogger - Fetching news for MS
+2025-04-24 17:37:21,242 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:21,458 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MS&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:21,554 - INFO - StockPortfolioLogger - MS → 230 articles fetched
+2025-04-24 17:37:21,555 - INFO - StockPortfolioLogger - Fetching news for MSCI
+2025-04-24 17:37:21,560 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:21,803 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MSCI&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:21,826 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
+2025-04-24 17:37:21,827 - INFO - StockPortfolioLogger - Fetching news for MSFT
+2025-04-24 17:37:21,830 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:22,050 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MSFT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:22,134 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
+2025-04-24 17:37:22,135 - INFO - StockPortfolioLogger - Fetching news for NFLX
+2025-04-24 17:37:22,139 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:22,390 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=NFLX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:22,584 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
+2025-04-24 17:37:22,585 - INFO - StockPortfolioLogger - Fetching news for OSK
+2025-04-24 17:37:22,589 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:22,821 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=OSK&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:22,868 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
+2025-04-24 17:37:22,868 - INFO - StockPortfolioLogger - Fetching news for PFE
+2025-04-24 17:37:22,871 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:23,112 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=PFE&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:23,140 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
+2025-04-24 17:37:23,141 - INFO - StockPortfolioLogger - Fetching news for PG
+2025-04-24 17:37:23,144 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:23,373 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=PG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:23,394 - INFO - StockPortfolioLogger - PG → 215 articles fetched
+2025-04-24 17:37:23,395 - INFO - StockPortfolioLogger - Fetching news for SPY
+2025-04-24 17:37:23,398 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:23,625 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=SPY&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:23,716 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
+2025-04-24 17:37:23,717 - INFO - StockPortfolioLogger - Fetching news for TMUS
+2025-04-24 17:37:23,726 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:23,963 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=TMUS&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:23,999 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
+2025-04-24 17:37:24,000 - INFO - StockPortfolioLogger - Fetching news for GSPC
+2025-04-24 17:37:24,003 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:24,224 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=GSPC&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:24,229 - INFO - StockPortfolioLogger - GSPC → 0 articles fetched
+2025-04-24 17:37:24,229 - INFO - StockPortfolioLogger - Fetching news for IXIC
+2025-04-24 17:37:24,232 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:37:24,446 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IXIC&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:37:24,451 - INFO - StockPortfolioLogger - IXIC → 0 articles fetched
+2025-04-24 17:37:24,507 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
+2025-04-24 17:37:24,508 - DEBUG - StockPortfolioLogger -   ticker                                           headline  ...                                                url source
+0   AAPL  Apple's AI shakeup: They might not be 'moving ...  ...  https://finnhub.io/api/news?id=28df6f8c82b485d...  Yahoo
+1   AAPL  Apple (AAPL) Eyes AI-Powered Future Despite De...  ...  https://finnhub.io/api/news?id=47a2acfb39cc93c...  Yahoo
+2   AAPL  Apple, in effort to turn around Siri, shakes u...  ...  https://finnhub.io/api/news?id=78367bba2513b3e...  Yahoo
+3   AAPL  Accenture reports Q2 beat, Apple TV+ losing $1...  ...  https://finnhub.io/api/news?id=7fa6ca959283b70...  Yahoo
+4   AAPL  Report: Apple Reassigns Siri Development to Vi...  ...  https://finnhub.io/api/news?id=8d5760e25ac6966...  Yahoo
+
+[5 rows x 6 columns]
+2025-04-24 17:37:25,085 - INFO - StockPortfolioLogger - Dow Jones data loaded successfully.
+2025-04-24 17:37:25,101 - INFO - StockPortfolioLogger - NASDAQ data loaded successfully.
+2025-04-24 17:37:25,118 - INFO - StockPortfolioLogger - S&P 500 data loaded successfully.
+2025-04-24 17:37:25,122 - INFO - StockPortfolioLogger - Portfolio data loaded successfully.
+2025-04-24 17:37:25,375 - INFO - StockPortfolioLogger - Portfolio prices data loaded successfully.
+2025-04-24 17:37:25,376 - DEBUG - StockPortfolioLogger - Dow Jones 
+         Date Ticker          Open          High           Low         Close      Adjusted   Returns     Volume
+0  2020-01-02    DJI  28638.970703  28872.800781  28627.769531  28868.800781  28868.800781       NaN  251820000
+1  2020-01-03    DJI  28553.330078  28716.310547  28500.359375  28634.880859  28634.880859 -0.008103  239590000
+2  2020-01-06    DJI  28465.500000  28708.019531  28418.630859  28703.380859  28703.380859  0.002392  252760000
+3  2020-01-07    DJI  28639.179688  28685.500000  28565.279297  28583.679688  28583.679688 -0.004170  258900000
+4  2020-01-08    DJI  28556.140625  28866.179688  28522.509766  28745.089844  28745.089844  0.005647  291750000
+2025-04-24 17:37:25,436 - DEBUG - StockPortfolioLogger - NASDAQ 
+         Date Ticker         Open         High          Low        Close     Adjusted   Returns      Volume
+0  2020-01-02   IXIC  9039.459961  9093.429688  9010.889648  9092.190430  9092.190430       NaN  2862700000
+1  2020-01-03   IXIC  8976.429688  9065.759766  8976.429688  9020.769531  9020.769531 -0.007855  2586520000
+2  2020-01-06   IXIC  8943.500000  9072.410156  8943.500000  9071.469727  9071.469727  0.005620  2810450000
+3  2020-01-07   IXIC  9076.639648  9091.929688  9042.549805  9068.580078  9068.580078 -0.000319  2381740000
+4  2020-01-08   IXIC  9068.030273  9168.889648  9059.379883  9129.240234  9129.240234  0.006689  2472620000
+2025-04-24 17:37:25,495 - DEBUG - StockPortfolioLogger - S&P 500 
+         Date Ticker         Open         High          Low        Close     Adjusted   Returns      Volume
+0  2020-01-02   GSPC  3244.669922  3258.139893  3235.530029  3257.850098  3257.850098       NaN  3459930000
+1  2020-01-03   GSPC  3226.360107  3246.149902  3222.340088  3234.850098  3234.850098 -0.007060  3484700000
+2  2020-01-06   GSPC  3217.550049  3246.840088  3214.639893  3246.280029  3246.280029  0.003533  3702460000
+3  2020-01-07   GSPC  3241.860107  3244.909912  3232.429932  3237.179932  3237.179932 -0.002803  3435910000
+4  2020-01-08   GSPC  3238.590088  3267.070068  3236.669922  3253.050049  3253.050049  0.004902  3726840000
+2025-04-24 17:37:25,554 - DEBUG - StockPortfolioLogger - Portfolio 
+  Ticker  Quantity                Sector       Close    Weight
+0   AAPL         1                    IT  218.270004  3.461290
+1   ADAP         1       Pharmaceuticals    0.291000  0.004615
+2   AGCO         1           Agriculture   93.089996  1.476206
+3     BA         2  Military Engineering  178.110001  2.824439
+4     BG         4           Agriculture   73.250000  1.161586
+2025-04-24 17:37:25,590 - DEBUG - StockPortfolioLogger - Portfolio Prices 
+         Date Ticker        Open        High         Low       Close    Adjusted   Returns    Volume
+0  2020-01-03    JPM  137.500000  139.229996  137.080002  138.339996  119.874138 -0.013197  10386800
+1  2020-01-03     KO   54.320000   54.990002   54.090000   54.689999   46.494698 -0.005455  11354500
+2  2020-01-03    LMT  404.019989  417.170013  403.000000  413.739990  359.312317  0.035981   2990100
+3  2020-01-03     MS   51.220001   51.450001   50.830002   51.200001   43.273079 -0.016142   6706000
+4  2020-01-03   MSCI  262.200012  263.579987  259.269989  260.750000  248.019470 -0.019921    459700
+2025-04-24 17:39:24,456 - INFO - StockPortfolioLogger - Configuration loaded successfully.
+2025-04-24 17:39:24,888 - INFO - StockPortfolioLogger - Starting data injection process...
+2025-04-24 17:39:24,889 - INFO - StockPortfolioLogger - Fetching news for AAPL
+2025-04-24 17:39:24,893 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:25,285 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=AAPL&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:25,406 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
+2025-04-24 17:39:25,406 - INFO - StockPortfolioLogger - Fetching news for ADAP
+2025-04-24 17:39:25,410 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:25,792 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=ADAP&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:25,798 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
+2025-04-24 17:39:25,799 - INFO - StockPortfolioLogger - Fetching news for AGCO
+2025-04-24 17:39:25,803 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:26,136 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=AGCO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:26,213 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
+2025-04-24 17:39:26,218 - INFO - StockPortfolioLogger - Fetching news for BA
+2025-04-24 17:39:26,225 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:26,511 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=BA&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:26,719 - INFO - StockPortfolioLogger - BA → 227 articles fetched
+2025-04-24 17:39:26,720 - INFO - StockPortfolioLogger - Fetching news for BG
+2025-04-24 17:39:26,722 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:27,074 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=BG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:27,117 - INFO - StockPortfolioLogger - BG → 192 articles fetched
+2025-04-24 17:39:27,117 - INFO - StockPortfolioLogger - Fetching news for CALM
+2025-04-24 17:39:27,122 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:27,399 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CALM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:27,409 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
+2025-04-24 17:39:27,409 - INFO - StockPortfolioLogger - Fetching news for CAT
+2025-04-24 17:39:27,411 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:27,754 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CAT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:27,824 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
+2025-04-24 17:39:27,826 - INFO - StockPortfolioLogger - Fetching news for CSCO
+2025-04-24 17:39:27,835 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:28,103 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CSCO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:28,166 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
+2025-04-24 17:39:28,166 - INFO - StockPortfolioLogger - Fetching news for CVX
+2025-04-24 17:39:28,170 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:28,460 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CVX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:28,582 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
+2025-04-24 17:39:28,582 - INFO - StockPortfolioLogger - Fetching news for DDOG
+2025-04-24 17:39:28,586 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:28,817 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=DDOG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:28,915 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
+2025-04-24 17:39:28,916 - INFO - StockPortfolioLogger - Fetching news for DE
+2025-04-24 17:39:28,920 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:29,162 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=DE&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:29,280 - INFO - StockPortfolioLogger - DE → 205 articles fetched
+2025-04-24 17:39:29,281 - INFO - StockPortfolioLogger - Fetching news for GRWG
+2025-04-24 17:39:29,284 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:29,510 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=GRWG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:29,621 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
+2025-04-24 17:39:29,622 - INFO - StockPortfolioLogger - Fetching news for HUM
+2025-04-24 17:39:29,626 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:29,864 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=HUM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:30,020 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
+2025-04-24 17:39:30,021 - INFO - StockPortfolioLogger - Fetching news for IBKR
+2025-04-24 17:39:30,024 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:30,395 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IBKR&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:30,572 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
+2025-04-24 17:39:30,574 - INFO - StockPortfolioLogger - Fetching news for IEX
+2025-04-24 17:39:30,578 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:30,895 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IEX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:30,910 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
+2025-04-24 17:39:30,914 - INFO - StockPortfolioLogger - Fetching news for JPM
+2025-04-24 17:39:30,920 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:31,214 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=JPM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:31,290 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
+2025-04-24 17:39:31,291 - INFO - StockPortfolioLogger - Fetching news for KO
+2025-04-24 17:39:31,296 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:31,563 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=KO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:31,612 - INFO - StockPortfolioLogger - KO → 232 articles fetched
+2025-04-24 17:39:31,613 - INFO - StockPortfolioLogger - Fetching news for LMT
+2025-04-24 17:39:31,616 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:31,895 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=LMT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:32,011 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
+2025-04-24 17:39:32,014 - INFO - StockPortfolioLogger - Fetching news for MS
+2025-04-24 17:39:32,017 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:32,242 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MS&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:32,345 - INFO - StockPortfolioLogger - MS → 230 articles fetched
+2025-04-24 17:39:32,347 - INFO - StockPortfolioLogger - Fetching news for MSCI
+2025-04-24 17:39:32,353 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:32,568 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MSCI&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:32,724 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
+2025-04-24 17:39:32,724 - INFO - StockPortfolioLogger - Fetching news for MSFT
+2025-04-24 17:39:32,728 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:33,198 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MSFT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:33,215 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
+2025-04-24 17:39:33,215 - INFO - StockPortfolioLogger - Fetching news for NFLX
+2025-04-24 17:39:33,219 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:33,542 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=NFLX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:33,554 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
+2025-04-24 17:39:33,554 - INFO - StockPortfolioLogger - Fetching news for OSK
+2025-04-24 17:39:33,556 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:33,889 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=OSK&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:33,910 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
+2025-04-24 17:39:33,911 - INFO - StockPortfolioLogger - Fetching news for PFE
+2025-04-24 17:39:33,916 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:34,231 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=PFE&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:34,344 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
+2025-04-24 17:39:34,345 - INFO - StockPortfolioLogger - Fetching news for PG
+2025-04-24 17:39:34,351 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:34,574 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=PG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:34,850 - INFO - StockPortfolioLogger - PG → 215 articles fetched
+2025-04-24 17:39:34,850 - INFO - StockPortfolioLogger - Fetching news for SPY
+2025-04-24 17:39:34,853 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:35,189 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=SPY&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:35,318 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
+2025-04-24 17:39:35,318 - INFO - StockPortfolioLogger - Fetching news for TMUS
+2025-04-24 17:39:35,324 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:35,730 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=TMUS&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:35,915 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
+2025-04-24 17:39:35,916 - INFO - StockPortfolioLogger - Fetching news for GSPC
+2025-04-24 17:39:35,920 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:36,200 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=GSPC&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:36,202 - INFO - StockPortfolioLogger - GSPC → 0 articles fetched
+2025-04-24 17:39:36,202 - INFO - StockPortfolioLogger - Fetching news for IXIC
+2025-04-24 17:39:36,206 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:36,443 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IXIC&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:36,445 - INFO - StockPortfolioLogger - IXIC → 0 articles fetched
+2025-04-24 17:39:36,501 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
+2025-04-24 17:39:36,502 - DEBUG - StockPortfolioLogger -   ticker                                           headline  ...                                                url source
+0   AAPL  Apple's AI shakeup: They might not be 'moving ...  ...  https://finnhub.io/api/news?id=28df6f8c82b485d...  Yahoo
+1   AAPL  Apple (AAPL) Eyes AI-Powered Future Despite De...  ...  https://finnhub.io/api/news?id=47a2acfb39cc93c...  Yahoo
+2   AAPL  Apple, in effort to turn around Siri, shakes u...  ...  https://finnhub.io/api/news?id=78367bba2513b3e...  Yahoo
+3   AAPL  Accenture reports Q2 beat, Apple TV+ losing $1...  ...  https://finnhub.io/api/news?id=7fa6ca959283b70...  Yahoo
+4   AAPL  Report: Apple Reassigns Siri Development to Vi...  ...  https://finnhub.io/api/news?id=8d5760e25ac6966...  Yahoo
+
+[5 rows x 6 columns]
+2025-04-24 17:39:37,200 - INFO - StockPortfolioLogger - Dow Jones data loaded successfully.
+2025-04-24 17:39:37,218 - INFO - StockPortfolioLogger - NASDAQ data loaded successfully.
+2025-04-24 17:39:37,238 - INFO - StockPortfolioLogger - S&P 500 data loaded successfully.
+2025-04-24 17:39:37,243 - INFO - StockPortfolioLogger - Portfolio data loaded successfully.
+2025-04-24 17:39:37,533 - INFO - StockPortfolioLogger - Portfolio prices data loaded successfully.
+2025-04-24 17:39:37,534 - DEBUG - StockPortfolioLogger - Dow Jones 
+         Date Ticker          Open          High           Low         Close      Adjusted   Returns     Volume
+0  2020-01-02    DJI  28638.970703  28872.800781  28627.769531  28868.800781  28868.800781       NaN  251820000
+1  2020-01-03    DJI  28553.330078  28716.310547  28500.359375  28634.880859  28634.880859 -0.008103  239590000
+2  2020-01-06    DJI  28465.500000  28708.019531  28418.630859  28703.380859  28703.380859  0.002392  252760000
+3  2020-01-07    DJI  28639.179688  28685.500000  28565.279297  28583.679688  28583.679688 -0.004170  258900000
+4  2020-01-08    DJI  28556.140625  28866.179688  28522.509766  28745.089844  28745.089844  0.005647  291750000
+2025-04-24 17:39:37,607 - DEBUG - StockPortfolioLogger - NASDAQ 
+         Date Ticker         Open         High          Low        Close     Adjusted   Returns      Volume
+0  2020-01-02   IXIC  9039.459961  9093.429688  9010.889648  9092.190430  9092.190430       NaN  2862700000
+1  2020-01-03   IXIC  8976.429688  9065.759766  8976.429688  9020.769531  9020.769531 -0.007855  2586520000
+2  2020-01-06   IXIC  8943.500000  9072.410156  8943.500000  9071.469727  9071.469727  0.005620  2810450000
+3  2020-01-07   IXIC  9076.639648  9091.929688  9042.549805  9068.580078  9068.580078 -0.000319  2381740000
+4  2020-01-08   IXIC  9068.030273  9168.889648  9059.379883  9129.240234  9129.240234  0.006689  2472620000
+2025-04-24 17:39:37,681 - DEBUG - StockPortfolioLogger - S&P 500 
+         Date Ticker         Open         High          Low        Close     Adjusted   Returns      Volume
+0  2020-01-02   GSPC  3244.669922  3258.139893  3235.530029  3257.850098  3257.850098       NaN  3459930000
+1  2020-01-03   GSPC  3226.360107  3246.149902  3222.340088  3234.850098  3234.850098 -0.007060  3484700000
+2  2020-01-06   GSPC  3217.550049  3246.840088  3214.639893  3246.280029  3246.280029  0.003533  3702460000
+3  2020-01-07   GSPC  3241.860107  3244.909912  3232.429932  3237.179932  3237.179932 -0.002803  3435910000
+4  2020-01-08   GSPC  3238.590088  3267.070068  3236.669922  3253.050049  3253.050049  0.004902  3726840000
+2025-04-24 17:39:37,745 - DEBUG - StockPortfolioLogger - Portfolio 
+  Ticker  Quantity                Sector       Close    Weight
+0   AAPL         1                    IT  218.270004  3.461290
+1   ADAP         1       Pharmaceuticals    0.291000  0.004615
+2   AGCO         1           Agriculture   93.089996  1.476206
+3     BA         2  Military Engineering  178.110001  2.824439
+4     BG         4           Agriculture   73.250000  1.161586
+2025-04-24 17:39:37,786 - DEBUG - StockPortfolioLogger - Portfolio Prices 
+         Date Ticker        Open        High         Low       Close    Adjusted   Returns    Volume
+0  2020-01-03    JPM  137.500000  139.229996  137.080002  138.339996  119.874138 -0.013197  10386800
+1  2020-01-03     KO   54.320000   54.990002   54.090000   54.689999   46.494698 -0.005455  11354500
+2  2020-01-03    LMT  404.019989  417.170013  403.000000  413.739990  359.312317  0.035981   2990100
+3  2020-01-03     MS   51.220001   51.450001   50.830002   51.200001   43.273079 -0.016142   6706000
+4  2020-01-03   MSCI  262.200012  263.579987  259.269989  260.750000  248.019470 -0.019921    459700
+2025-04-24 17:39:55,969 - INFO - StockPortfolioLogger - Configuration loaded successfully.
+2025-04-24 17:39:56,389 - INFO - StockPortfolioLogger - Starting data injection process...
+2025-04-24 17:39:56,389 - INFO - StockPortfolioLogger - Fetching news for AAPL
+2025-04-24 17:39:56,392 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:56,643 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=AAPL&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:56,786 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
+2025-04-24 17:39:56,787 - INFO - StockPortfolioLogger - Fetching news for ADAP
+2025-04-24 17:39:56,790 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:57,126 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=ADAP&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:57,237 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
+2025-04-24 17:39:57,237 - INFO - StockPortfolioLogger - Fetching news for AGCO
+2025-04-24 17:39:57,241 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:57,743 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=AGCO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:57,806 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
+2025-04-24 17:39:57,807 - INFO - StockPortfolioLogger - Fetching news for BA
+2025-04-24 17:39:57,812 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:58,052 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=BA&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:58,170 - INFO - StockPortfolioLogger - BA → 227 articles fetched
+2025-04-24 17:39:58,171 - INFO - StockPortfolioLogger - Fetching news for BG
+2025-04-24 17:39:58,175 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:58,767 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=BG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:58,894 - INFO - StockPortfolioLogger - BG → 192 articles fetched
+2025-04-24 17:39:58,895 - INFO - StockPortfolioLogger - Fetching news for CALM
+2025-04-24 17:39:58,899 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:59,224 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CALM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:59,328 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
+2025-04-24 17:39:59,328 - INFO - StockPortfolioLogger - Fetching news for CAT
+2025-04-24 17:39:59,332 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:59,566 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CAT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:39:59,706 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
+2025-04-24 17:39:59,707 - INFO - StockPortfolioLogger - Fetching news for CSCO
+2025-04-24 17:39:59,710 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:39:59,915 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CSCO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:00,011 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
+2025-04-24 17:40:00,012 - INFO - StockPortfolioLogger - Fetching news for CVX
+2025-04-24 17:40:00,020 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:00,256 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=CVX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:00,308 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
+2025-04-24 17:40:00,309 - INFO - StockPortfolioLogger - Fetching news for DDOG
+2025-04-24 17:40:00,312 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:00,569 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=DDOG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:00,605 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
+2025-04-24 17:40:00,606 - INFO - StockPortfolioLogger - Fetching news for DE
+2025-04-24 17:40:00,610 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:00,898 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=DE&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:00,925 - INFO - StockPortfolioLogger - DE → 205 articles fetched
+2025-04-24 17:40:00,926 - INFO - StockPortfolioLogger - Fetching news for GRWG
+2025-04-24 17:40:00,929 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:01,222 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=GRWG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:01,253 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
+2025-04-24 17:40:01,254 - INFO - StockPortfolioLogger - Fetching news for HUM
+2025-04-24 17:40:01,258 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:01,522 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=HUM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:01,670 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
+2025-04-24 17:40:01,671 - INFO - StockPortfolioLogger - Fetching news for IBKR
+2025-04-24 17:40:01,675 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:01,914 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IBKR&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:01,965 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
+2025-04-24 17:40:01,965 - INFO - StockPortfolioLogger - Fetching news for IEX
+2025-04-24 17:40:01,968 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:02,207 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IEX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:02,270 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
+2025-04-24 17:40:02,270 - INFO - StockPortfolioLogger - Fetching news for JPM
+2025-04-24 17:40:02,273 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:02,538 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=JPM&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:02,578 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
+2025-04-24 17:40:02,579 - INFO - StockPortfolioLogger - Fetching news for KO
+2025-04-24 17:40:02,582 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:02,810 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=KO&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:02,964 - INFO - StockPortfolioLogger - KO → 232 articles fetched
+2025-04-24 17:40:02,964 - INFO - StockPortfolioLogger - Fetching news for LMT
+2025-04-24 17:40:02,967 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:03,182 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=LMT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:03,265 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
+2025-04-24 17:40:03,266 - INFO - StockPortfolioLogger - Fetching news for MS
+2025-04-24 17:40:03,269 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:03,497 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MS&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:03,521 - INFO - StockPortfolioLogger - MS → 230 articles fetched
+2025-04-24 17:40:03,521 - INFO - StockPortfolioLogger - Fetching news for MSCI
+2025-04-24 17:40:03,524 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:03,727 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MSCI&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:03,858 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
+2025-04-24 17:40:03,858 - INFO - StockPortfolioLogger - Fetching news for MSFT
+2025-04-24 17:40:03,862 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:04,084 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=MSFT&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:04,180 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
+2025-04-24 17:40:04,180 - INFO - StockPortfolioLogger - Fetching news for NFLX
+2025-04-24 17:40:04,187 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:04,411 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=NFLX&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:04,500 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
+2025-04-24 17:40:04,503 - INFO - StockPortfolioLogger - Fetching news for OSK
+2025-04-24 17:40:04,511 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:04,799 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=OSK&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:04,815 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
+2025-04-24 17:40:04,816 - INFO - StockPortfolioLogger - Fetching news for PFE
+2025-04-24 17:40:04,820 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:05,054 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=PFE&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:05,156 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
+2025-04-24 17:40:05,157 - INFO - StockPortfolioLogger - Fetching news for PG
+2025-04-24 17:40:05,163 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:05,410 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=PG&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:05,499 - INFO - StockPortfolioLogger - PG → 215 articles fetched
+2025-04-24 17:40:05,499 - INFO - StockPortfolioLogger - Fetching news for SPY
+2025-04-24 17:40:05,513 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:05,796 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=SPY&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:05,897 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
+2025-04-24 17:40:05,897 - INFO - StockPortfolioLogger - Fetching news for TMUS
+2025-04-24 17:40:05,901 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:06,124 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=TMUS&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:06,296 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
+2025-04-24 17:40:06,307 - INFO - StockPortfolioLogger - Fetching news for GSPC
+2025-04-24 17:40:06,320 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:06,552 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=GSPC&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:06,555 - INFO - StockPortfolioLogger - GSPC → 0 articles fetched
+2025-04-24 17:40:06,556 - INFO - StockPortfolioLogger - Fetching news for IXIC
+2025-04-24 17:40:06,560 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): finnhub.io:443
+2025-04-24 17:40:06,782 - DEBUG - urllib3.connectionpool - https://finnhub.io:443 "GET /api/v1/company-news?symbol=IXIC&from=2020-01-03&to=2025-03-21&token=d04gfqpr01qspgm2scagd04gfqpr01qspgm2scb0 HTTP/1.1" 200 None
+2025-04-24 17:40:06,787 - INFO - StockPortfolioLogger - IXIC → 0 articles fetched
+2025-04-24 17:40:06,853 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
+2025-04-24 17:40:06,854 - DEBUG - StockPortfolioLogger -   ticker                                           headline  ...                                                url source
+0   AAPL  Apple's AI shakeup: They might not be 'moving ...  ...  https://finnhub.io/api/news?id=28df6f8c82b485d...  Yahoo
+1   AAPL  Apple (AAPL) Eyes AI-Powered Future Despite De...  ...  https://finnhub.io/api/news?id=47a2acfb39cc93c...  Yahoo
+2   AAPL  Apple, in effort to turn around Siri, shakes u...  ...  https://finnhub.io/api/news?id=78367bba2513b3e...  Yahoo
+3   AAPL  Accenture reports Q2 beat, Apple TV+ losing $1...  ...  https://finnhub.io/api/news?id=7fa6ca959283b70...  Yahoo
+4   AAPL  Report: Apple Reassigns Siri Development to Vi...  ...  https://finnhub.io/api/news?id=8d5760e25ac6966...  Yahoo
+
+[5 rows x 6 columns]
+2025-04-24 17:40:07,587 - INFO - StockPortfolioLogger - Dow Jones data loaded successfully.
+2025-04-24 17:40:07,607 - INFO - StockPortfolioLogger - NASDAQ data loaded successfully.
+2025-04-24 17:40:07,627 - INFO - StockPortfolioLogger - S&P 500 data loaded successfully.
+2025-04-24 17:40:07,633 - INFO - StockPortfolioLogger - Portfolio data loaded successfully.
+2025-04-24 17:40:07,928 - INFO - StockPortfolioLogger - Portfolio prices data loaded successfully.
+2025-04-24 17:40:07,929 - DEBUG - StockPortfolioLogger - Dow Jones 
+         Date Ticker          Open          High           Low         Close      Adjusted   Returns     Volume
+0  2020-01-02    DJI  28638.970703  28872.800781  28627.769531  28868.800781  28868.800781       NaN  251820000
+1  2020-01-03    DJI  28553.330078  28716.310547  28500.359375  28634.880859  28634.880859 -0.008103  239590000
+2  2020-01-06    DJI  28465.500000  28708.019531  28418.630859  28703.380859  28703.380859  0.002392  252760000
+3  2020-01-07    DJI  28639.179688  28685.500000  28565.279297  28583.679688  28583.679688 -0.004170  258900000
+4  2020-01-08    DJI  28556.140625  28866.179688  28522.509766  28745.089844  28745.089844  0.005647  291750000
+2025-04-24 17:40:08,007 - DEBUG - StockPortfolioLogger - NASDAQ 
+         Date Ticker         Open         High          Low        Close     Adjusted   Returns      Volume
+0  2020-01-02   IXIC  9039.459961  9093.429688  9010.889648  9092.190430  9092.190430       NaN  2862700000
+1  2020-01-03   IXIC  8976.429688  9065.759766  8976.429688  9020.769531  9020.769531 -0.007855  2586520000
+2  2020-01-06   IXIC  8943.500000  9072.410156  8943.500000  9071.469727  9071.469727  0.005620  2810450000
+3  2020-01-07   IXIC  9076.639648  9091.929688  9042.549805  9068.580078  9068.580078 -0.000319  2381740000
+4  2020-01-08   IXIC  9068.030273  9168.889648  9059.379883  9129.240234  9129.240234  0.006689  2472620000
+2025-04-24 17:40:08,077 - DEBUG - StockPortfolioLogger - S&P 500 
+         Date Ticker         Open         High          Low        Close     Adjusted   Returns      Volume
+0  2020-01-02   GSPC  3244.669922  3258.139893  3235.530029  3257.850098  3257.850098       NaN  3459930000
+1  2020-01-03   GSPC  3226.360107  3246.149902  3222.340088  3234.850098  3234.850098 -0.007060  3484700000
+2  2020-01-06   GSPC  3217.550049  3246.840088  3214.639893  3246.280029  3246.280029  0.003533  3702460000
+3  2020-01-07   GSPC  3241.860107  3244.909912  3232.429932  3237.179932  3237.179932 -0.002803  3435910000
+4  2020-01-08   GSPC  3238.590088  3267.070068  3236.669922  3253.050049  3253.050049  0.004902  3726840000
+2025-04-24 17:40:08,149 - DEBUG - StockPortfolioLogger - Portfolio 
+  Ticker  Quantity                Sector       Close    Weight
+0   AAPL         1                    IT  218.270004  3.461290
+1   ADAP         1       Pharmaceuticals    0.291000  0.004615
+2   AGCO         1           Agriculture   93.089996  1.476206
+3     BA         2  Military Engineering  178.110001  2.824439
+4     BG         4           Agriculture   73.250000  1.161586
+2025-04-24 17:40:08,201 - DEBUG - StockPortfolioLogger - Portfolio Prices 
+         Date Ticker        Open        High         Low       Close    Adjusted   Returns    Volume
+0  2020-01-03    JPM  137.500000  139.229996  137.080002  138.339996  119.874138 -0.013197  10386800
+1  2020-01-03     KO   54.320000   54.990002   54.090000   54.689999   46.494698 -0.005455  11354500
+2  2020-01-03    LMT  404.019989  417.170013  403.000000  413.739990  359.312317  0.035981   2990100
+3  2020-01-03     MS   51.220001   51.450001   50.830002   51.200001   43.273079 -0.016142   6706000
+4  2020-01-03   MSCI  262.200012  263.579987  259.269989  260.750000  248.019470 -0.019921    459700
