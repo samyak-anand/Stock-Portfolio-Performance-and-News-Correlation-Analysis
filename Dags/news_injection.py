@@ -12,7 +12,7 @@ base_url = config.base_url
 # List of tickers to fetch news for
 tickers = ['AAPL', 'ADAP', 'AGCO', 'BA', 'BG', 'CALM', 'CAT', 'CSCO', 'CVX',
        'DDOG', 'DE', 'GRWG', 'HUM', 'IBKR', 'IEX', 'JPM', 'KO', 'LMT',
-       'MS', 'MSCI', 'MSFT', 'NFLX', 'OSK', 'PFE', 'PG', 'SPY', 'TMUS']
+       'MS', 'MSCI', 'MSFT', 'NFLX', 'OSK', 'PFE', 'PG', 'SPY', 'TMUS','GSPC','IXIC']
 
 # Define date range (YYYY-MM-DD)
 from_date = "2020-01-03"
@@ -42,7 +42,7 @@ try:
         logger.info(f"{ticker} → {len(articles)} articles fetched")
 
     # Convert to DataFrame
-    df = pd.DataFrame(all_articles)
+    df = pd.DataFrame(all_articles) 
     logger.info("Converted articles to DataFrame successfully")
     logger.debug(df.head())  # Optional preview
 
@@ -59,3 +59,6 @@ except Exception as e:
 output_file = 'updated_news_data.csv'
 df.to_csv(output_file, index=False)
 print(f"Stock data saved to '{output_file}'")
+
+
+news_data= pd.read_csv('/home/samyak/PycharmProjects/Stock-Portfolio-Performance-and-News-Correlation-Analysis/updated_news_data.csv')

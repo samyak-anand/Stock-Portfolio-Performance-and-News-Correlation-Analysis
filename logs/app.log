@@ -275,3 +275,64 @@
 2025-04-24 10:02:27,680 - INFO - StockPortfolioLogger - Fetching news for TMUS
 2025-04-24 10:02:28,018 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
 2025-04-24 10:02:28,065 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
+2025-04-24 10:05:46,932 - INFO - StockPortfolioLogger - Configuration loaded successfully.
+2025-04-24 10:05:49,171 - INFO - StockPortfolioLogger - Starting data injection process...
+2025-04-24 10:05:49,171 - INFO - StockPortfolioLogger - Fetching news for AAPL
+2025-04-24 10:05:49,633 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
+2025-04-24 10:05:49,634 - INFO - StockPortfolioLogger - Fetching news for ADAP
+2025-04-24 10:05:50,041 - INFO - StockPortfolioLogger - ADAP → 121 articles fetched
+2025-04-24 10:05:50,041 - INFO - StockPortfolioLogger - Fetching news for AGCO
+2025-04-24 10:05:50,560 - INFO - StockPortfolioLogger - AGCO → 196 articles fetched
+2025-04-24 10:05:50,561 - INFO - StockPortfolioLogger - Fetching news for BA
+2025-04-24 10:05:50,966 - INFO - StockPortfolioLogger - BA → 227 articles fetched
+2025-04-24 10:05:50,966 - INFO - StockPortfolioLogger - Fetching news for BG
+2025-04-24 10:05:51,381 - INFO - StockPortfolioLogger - BG → 192 articles fetched
+2025-04-24 10:05:51,382 - INFO - StockPortfolioLogger - Fetching news for CALM
+2025-04-24 10:05:51,965 - INFO - StockPortfolioLogger - CALM → 187 articles fetched
+2025-04-24 10:05:51,965 - INFO - StockPortfolioLogger - Fetching news for CAT
+2025-04-24 10:05:52,293 - INFO - StockPortfolioLogger - CAT → 221 articles fetched
+2025-04-24 10:05:52,293 - INFO - StockPortfolioLogger - Fetching news for CSCO
+2025-04-24 10:05:52,621 - INFO - StockPortfolioLogger - CSCO → 222 articles fetched
+2025-04-24 10:05:52,621 - INFO - StockPortfolioLogger - Fetching news for CVX
+2025-04-24 10:05:52,967 - INFO - StockPortfolioLogger - CVX → 235 articles fetched
+2025-04-24 10:05:52,967 - INFO - StockPortfolioLogger - Fetching news for DDOG
+2025-04-24 10:05:53,271 - INFO - StockPortfolioLogger - DDOG → 225 articles fetched
+2025-04-24 10:05:53,272 - INFO - StockPortfolioLogger - Fetching news for DE
+2025-04-24 10:05:53,589 - INFO - StockPortfolioLogger - DE → 205 articles fetched
+2025-04-24 10:05:53,590 - INFO - StockPortfolioLogger - Fetching news for GRWG
+2025-04-24 10:05:53,837 - INFO - StockPortfolioLogger - GRWG → 134 articles fetched
+2025-04-24 10:05:53,837 - INFO - StockPortfolioLogger - Fetching news for HUM
+2025-04-24 10:05:54,155 - INFO - StockPortfolioLogger - HUM → 189 articles fetched
+2025-04-24 10:05:54,155 - INFO - StockPortfolioLogger - Fetching news for IBKR
+2025-04-24 10:05:54,408 - INFO - StockPortfolioLogger - IBKR → 214 articles fetched
+2025-04-24 10:05:54,409 - INFO - StockPortfolioLogger - Fetching news for IEX
+2025-04-24 10:05:54,669 - INFO - StockPortfolioLogger - IEX → 177 articles fetched
+2025-04-24 10:05:54,669 - INFO - StockPortfolioLogger - Fetching news for JPM
+2025-04-24 10:05:54,997 - INFO - StockPortfolioLogger - JPM → 237 articles fetched
+2025-04-24 10:05:54,997 - INFO - StockPortfolioLogger - Fetching news for KO
+2025-04-24 10:05:55,388 - INFO - StockPortfolioLogger - KO → 232 articles fetched
+2025-04-24 10:05:55,389 - INFO - StockPortfolioLogger - Fetching news for LMT
+2025-04-24 10:05:55,942 - INFO - StockPortfolioLogger - LMT → 240 articles fetched
+2025-04-24 10:05:55,943 - INFO - StockPortfolioLogger - Fetching news for MS
+2025-04-24 10:05:56,354 - INFO - StockPortfolioLogger - MS → 230 articles fetched
+2025-04-24 10:05:56,354 - INFO - StockPortfolioLogger - Fetching news for MSCI
+2025-04-24 10:05:56,631 - INFO - StockPortfolioLogger - MSCI → 194 articles fetched
+2025-04-24 10:05:56,631 - INFO - StockPortfolioLogger - Fetching news for MSFT
+2025-04-24 10:05:56,899 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
+2025-04-24 10:05:56,899 - INFO - StockPortfolioLogger - Fetching news for NFLX
+2025-04-24 10:05:57,140 - INFO - StockPortfolioLogger - NFLX → 244 articles fetched
+2025-04-24 10:05:57,141 - INFO - StockPortfolioLogger - Fetching news for OSK
+2025-04-24 10:05:57,437 - INFO - StockPortfolioLogger - OSK → 199 articles fetched
+2025-04-24 10:05:57,437 - INFO - StockPortfolioLogger - Fetching news for PFE
+2025-04-24 10:05:57,694 - INFO - StockPortfolioLogger - PFE → 237 articles fetched
+2025-04-24 10:05:57,695 - INFO - StockPortfolioLogger - Fetching news for PG
+2025-04-24 10:05:58,143 - INFO - StockPortfolioLogger - PG → 215 articles fetched
+2025-04-24 10:05:58,143 - INFO - StockPortfolioLogger - Fetching news for SPY
+2025-04-24 10:05:58,427 - INFO - StockPortfolioLogger - SPY → 250 articles fetched
+2025-04-24 10:05:58,427 - INFO - StockPortfolioLogger - Fetching news for TMUS
+2025-04-24 10:05:58,681 - INFO - StockPortfolioLogger - TMUS → 214 articles fetched
+2025-04-24 10:05:58,681 - INFO - StockPortfolioLogger - Fetching news for GSPC
+2025-04-24 10:05:58,909 - INFO - StockPortfolioLogger - GSPC → 0 articles fetched
+2025-04-24 10:05:58,909 - INFO - StockPortfolioLogger - Fetching news for IXIC
+2025-04-24 10:05:59,176 - INFO - StockPortfolioLogger - IXIC → 0 articles fetched
+2025-04-24 10:05:59,221 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
