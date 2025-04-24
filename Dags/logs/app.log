@@ -1,0 +1,18 @@
+2025-04-24 09:47:05,413 - INFO - StockPortfolioLogger - Configuration loaded successfully.
+2025-04-24 09:47:05,762 - INFO - StockPortfolioLogger - Starting data injection process...
+2025-04-24 09:47:05,764 - INFO - StockPortfolioLogger - Fetching news for AAPL
+2025-04-24 09:47:06,011 - INFO - StockPortfolioLogger - AAPL → 238 articles fetched
+2025-04-24 09:47:06,013 - INFO - StockPortfolioLogger - Fetching news for TSLA
+2025-04-24 09:47:06,229 - INFO - StockPortfolioLogger - TSLA → 233 articles fetched
+2025-04-24 09:47:06,231 - INFO - StockPortfolioLogger - Fetching news for MSFT
+2025-04-24 09:47:06,521 - INFO - StockPortfolioLogger - MSFT → 238 articles fetched
+2025-04-24 09:47:06,524 - INFO - StockPortfolioLogger - Fetching news for AMZN
+2025-04-24 09:47:06,835 - INFO - StockPortfolioLogger - AMZN → 246 articles fetched
+2025-04-24 09:47:06,836 - INFO - StockPortfolioLogger - Fetching news for GOOGL
+2025-04-24 09:47:07,132 - INFO - StockPortfolioLogger - GOOGL → 239 articles fetched
+2025-04-24 09:47:07,148 - INFO - StockPortfolioLogger - Converted articles to DataFrame successfully
+2025-04-24 09:47:07,290 - INFO - StockPortfolioLogger - Dow Jones data loaded successfully.
+2025-04-24 09:47:07,313 - INFO - StockPortfolioLogger - NASDAQ data loaded successfully.
+2025-04-24 09:47:07,340 - INFO - StockPortfolioLogger - S&P 500 data loaded successfully.
+2025-04-24 09:47:07,350 - INFO - StockPortfolioLogger - Portfolio data loaded successfully.
+2025-04-24 09:47:07,803 - INFO - StockPortfolioLogger - Portfolio prices data loaded successfully.

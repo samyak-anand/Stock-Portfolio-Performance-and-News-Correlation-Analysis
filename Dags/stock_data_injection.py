@@ -39,7 +39,6 @@ try:
 except Exception as e:
     logger.error(f"Failed to load Portfolio prices data: {e}", exc_info=True)
 
-# Optional preview (keep or comment out)
 logger.debug("Dow Jones \n%s", dowjones.head() if 'dowjones' in locals() else 'Dow Jones not loaded')
 logger.debug("NASDAQ \n%s", nsadaq.head() if 'nsadaq' in locals() else 'NASDAQ not loaded')
 logger.debug("S&P 500 \n%s", sp500.head() if 'sp500' in locals() else 'S&P 500 not loaded')
