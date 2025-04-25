@@ -2,20 +2,27 @@ import pandas as pd
 import news_injection
 import stock_data_injection
 
-
-portfolio_df= stock_data_injection.portfolio
-portfolio_price_df= stock_data_injection.portfolio_price
-news_data_df= news_injection.news_data
-news_data_df.info()
+import logging
+logging.getLogger('matplotlib').setLevel(logging.WARNING)
 
 
+portfolio= stock_data_injection.portfolio
+portfolio_price= stock_data_injection.portfolio_price
+news_data= news_injection.news_data
+print(news_data.info())
+
+#drop close from portfoli_data_clean
+portfolio.drop('Close',axis=1, inplace= True)
+portfolio.head()
+#drop close from portfoli_data_clean
+news_data.drop('url',axis=1, inplace= True)
+print(news_data.head())
 
 #converting datetime to date in news dataset
 
-news_data_df['datetime'] = pd.to_datetime(news_data_df['datetime'], errors= 'coerce')#.dt.date
-news_data_df.rename(columns={'datetime':'date'}, inplace =True)
-
-
+news_data['datetime'] = pd.to_datetime(news_data['datetime'], errors= 'coerce').dt.date
+news_data.rename(columns={'datetime':'date'}, inplace =True)
+news_data= news_data[['date','ticker','headline', 'summary', 'source']]
 
 def dataframe_overview(df):
     #display basic information about dataframe 
@@ -56,14 +63,13 @@ def dataframe_overview(df):
 # passing datafame to dataframe_overview 
 
 print('\n Displaying the Overview of Portfolio dataframe: \n')
-dataframe_overview(portfolio_df)
+print(dataframe_overview(portfolio))
 
 print('\n Displaying the Overview of Portfolio Prices  dataframe: \n')
-dataframe_overview(portfolio_price_df)
+print(dataframe_overview(portfolio_price))
 
 print('\n Displaying the Overview of News dataframe: \n')
-dataframe_overview(news_data_df)
-
+print(dataframe_overview(news_data))
 
 def trim (df):
 
@@ -99,23 +105,20 @@ def trim (df):
 
 #Applying the trim fuction to portfolio dataframe.
 print("\n Clean Portfolio Dataset")
-portfolio_data_clean= trim(portfolio_df)
+portfolio_df= trim(portfolio)
+print(portfolio_df)
 
 #Applying the trim fuction to portfolio price dataframe.
 print("\n Clean Portfolio Price Dataset")
-portfolio_price_data_clean= trim(portfolio_price_df)
+portfolio_price_df= trim(portfolio_price)
+print(portfolio_price_df)
 
 #Applying the trim fuction to news dataframe.
 print("\n Clean News Dataset")
-news_data_clean= trim(news_data_df)
+news_data_df= trim(news_data)
+print(news_data_df)
 
 
-#drop close from portfoli_data_clean
-portfolio_data_clean.drop('close',axis=1, inplace= True)
-portfolio_data_clean.head()
-
-portfolio_merge= pd.merge(portfolio_price_data_clean,portfolio_data_clean,
-                        on = ['ticker'],how= "inner")
-
-print('\n Merge Dataset: \n')
-print(portfolio_merge)
+portfolio_merge= pd.merge(portfolio_price_df,portfolio_df,
+                           on = ['ticker'],
+                           how= "inner")
