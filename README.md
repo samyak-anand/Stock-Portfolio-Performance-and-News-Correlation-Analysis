@@ -83,9 +83,8 @@ Install the necessary Python packages:
 
 Prepare your datasets:
 
-    Download stock portfolio and pricing data from Kaggle.
-
-    Set up your Finnhub.io API key in your environment variables or within your code
+Download stock portfolio and pricing data from Kaggle.
+Set up your Finnhub.io API key in your environment variables or within your code
 
 Run the preprocessing script:
 ```bash
