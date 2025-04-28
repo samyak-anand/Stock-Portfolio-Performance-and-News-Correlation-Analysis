@@ -71,13 +71,15 @@ EDA
 How to Run the Project
 
 Clone the repository:
+```bash
     git clone https://github.com/samyak-anand/Stock-Portfolio-Performance-and-News-Correlation-Analysis.git
     cd Stock-Portfolio-Performance-and-News-Correlation-Analysis
-
+```
 
 Install the necessary Python packages:
+```bash
     pip install -r requirements.txt
-
+```
 
 Prepare your datasets:
 
@@ -86,7 +88,11 @@ Prepare your datasets:
     Set up your Finnhub.io API key in your environment variables or within your code
 
 Run the preprocessing script:
+```bash
     python prepare_dataset.py
+```
 
 Open and run the analysis notebook:
+```bash
     jupyter notebook Stock_Portfolio.ipynb
+```
