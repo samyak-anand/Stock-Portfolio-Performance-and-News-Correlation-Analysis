@@ -3,6 +3,5 @@
 
 ## Flow chart 
     Data Injection 
-    ![alt text](image.png)
 
 
