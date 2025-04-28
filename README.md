@@ -6,3 +6,8 @@ Data Injection
 
 
 ![alt text](Data_injection.drawio.png)
+
+EDA
+
+![alt text](EDA.drawio.png)
+
