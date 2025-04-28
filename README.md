@@ -1,6 +1,11 @@
 # Stock-Portfolio-Performance-and-News-Correlation-Analysis
 
 
+Structure of Project 
+
+![alt text](Structure.drawio.png)
+
+
 ## Flow chart 
 Data Injection 
 
