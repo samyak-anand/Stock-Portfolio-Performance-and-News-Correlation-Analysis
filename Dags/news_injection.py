@@ -2,9 +2,9 @@ import config
 import pandas as pd
 import requests
 from datetime import datetime
-from logger import logger  # Import the central logger
 
-logger.info("Starting data injection process...")
+# Print information instead of using logger
+print("Starting data injection process...")
 
 apikey = config.API_KEY
 base_url = config.base_url
@@ -23,7 +23,7 @@ all_articles = []
 
 try:
     for ticker in tickers:
-        logger.info(f"Fetching news for {ticker}")
+        print(f"Fetching news for {ticker}")
         url = f"{base_url}?symbol={ticker}&from={from_date}&to={to_date}&token={apikey}"
         response = requests.get(url)
         response.raise_for_status()  # Handle HTTP errors
@@ -39,26 +39,24 @@ try:
                 'source': article.get('source')
             })
 
-        logger.info(f"{ticker} → {len(articles)} articles fetched")
+        print(f"{ticker} → {len(articles)} articles fetched")
 
     # Convert to DataFrame
-    df = pd.DataFrame(all_articles) 
-    logger.info("Converted articles to DataFrame successfully")
-    logger.debug(df.head()) 
+    df = pd.DataFrame(all_articles)
+    print("Converted articles to DataFrame successfully")
+    print(df.head())  # Print the first few rows to verify
 
     print(df)  # Retaining print since it was in original code
 
 except requests.exceptions.RequestException as req_err:
-    logger.error(f"HTTP Request failed: {req_err}", exc_info=True)
+    print(f"HTTP Request failed: {req_err}")
 except Exception as e:
-    logger.error(f"An unexpected error occurred: {e}", exc_info=True)
-
-
+    print(f"An unexpected error occurred: {e}")
 
 # To save the data into .csv file
 output_file = 'updated_news_data.csv'
 df.to_csv(output_file, index=False)
 print(f"Stock data saved to '{output_file}'")
 
-
-news_data= pd.read_csv('/home/samyak/PycharmProjects/Stock-Portfolio-Performance-and-News-Correlation-Analysis/updated_news_data.csv')
+# Loading the saved CSV to verify data
+news_data = pd.read_csv('updated_news_data.csv')

@@ -1,5 +1,4 @@
 import pandas as pd
-from logger import logger  
 
 # File paths
 dow_jones_path = '/home/samyak/PycharmProjects/Stock-Portfolio-Performance-and-News-Correlation-Analysis/Dataset/Dow_Jones.csv'
@@ -8,39 +7,40 @@ sp500_path = '/home/samyak/PycharmProjects/Stock-Portfolio-Performance-and-News-
 portfolio_path = '/home/samyak/PycharmProjects/Stock-Portfolio-Performance-and-News-Correlation-Analysis/Dataset/Portfolio.csv'
 portfolio_price_path = '/home/samyak/PycharmProjects/Stock-Portfolio-Performance-and-News-Correlation-Analysis/Dataset/Portfolio_prices.csv'
 
-# Load datasets with logging
+# Load datasets with print statements instead of logging
 try:
     dowjones = pd.read_csv(dow_jones_path)
-    logger.info("Dow Jones data loaded successfully.")
+    print("Dow Jones data loaded successfully.")
 except Exception as e:
-    logger.error(f"Failed to load Dow Jones data: {e}", exc_info=True)
+    print(f"Failed to load Dow Jones data: {e}")
 
 try:
     nsadaq = pd.read_csv(nasdaq_path)
-    logger.info("NASDAQ data loaded successfully.")
+    print("NASDAQ data loaded successfully.")
 except Exception as e:
-    logger.error(f"Failed to load NASDAQ data: {e}", exc_info=True)
+    print(f"Failed to load NASDAQ data: {e}")
 
 try:
     sp500 = pd.read_csv(sp500_path)
-    logger.info("S&P 500 data loaded successfully.")
+    print("S&P 500 data loaded successfully.")
 except Exception as e:
-    logger.error(f"Failed to load S&P 500 data: {e}", exc_info=True)
+    print(f"Failed to load S&P 500 data: {e}")
 
 try:
     portfolio = pd.read_csv(portfolio_path)
-    logger.info("Portfolio data loaded successfully.")
+    print("Portfolio data loaded successfully.")
 except Exception as e:
-    logger.error(f"Failed to load Portfolio data: {e}", exc_info=True)
+    print(f"Failed to load Portfolio data: {e}")
 
 try:
     portfolio_price = pd.read_csv(portfolio_price_path)
-    logger.info("Portfolio prices data loaded successfully.")
+    print("Portfolio prices data loaded successfully.")
 except Exception as e:
-    logger.error(f"Failed to load Portfolio prices data: {e}", exc_info=True)
+    print(f"Failed to load Portfolio prices data: {e}")
 
-logger.debug("Dow Jones \n%s", dowjones.head() if 'dowjones' in locals() else 'Dow Jones not loaded')
-logger.debug("NASDAQ \n%s", nsadaq.head() if 'nsadaq' in locals() else 'NASDAQ not loaded')
-logger.debug("S&P 500 \n%s", sp500.head() if 'sp500' in locals() else 'S&P 500 not loaded')
-logger.debug("Portfolio \n%s", portfolio.head() if 'portfolio' in locals() else 'Portfolio not loaded')
-logger.debug("Portfolio Prices \n%s", portfolio_price.head() if 'portfolio_price' in locals() else 'Portfolio Prices not loaded')
+# Print the head of each DataFrame to verify their content
+print("Dow Jones \n", dowjones.head() if 'dowjones' in locals() else 'Dow Jones not loaded')
+print("NASDAQ \n", nsadaq.head() if 'nsadaq' in locals() else 'NASDAQ not loaded')
+print("S&P 500 \n", sp500.head() if 'sp500' in locals() else 'S&P 500 not loaded')
+print("Portfolio \n", portfolio.head() if 'portfolio' in locals() else 'Portfolio not loaded')
+print("Portfolio Prices \n", portfolio_price.head() if 'portfolio_price' in locals() else 'Portfolio Prices not loaded')

@@ -2,10 +2,8 @@ import pandas as pd
 import news_injection
 import stock_data_injection
 
-import logging
-from logger import logger  # Correct import
-
 # Suppress matplotlib logs
+import logging
 logging.getLogger('matplotlib').setLevel(logging.WARNING)
 
 # Load data
@@ -13,19 +11,19 @@ portfolio = stock_data_injection.portfolio
 portfolio_price = stock_data_injection.portfolio_price
 news_data = news_injection.news_data
 
-logger.info("Loaded portfolio, portfolio_price, and news_data successfully.")
+print("Loaded portfolio, portfolio_price, and news_data successfully.")
 
 print(news_data.info())
 
 # Drop 'Close' from portfolio
 portfolio.drop('Close', axis=1, inplace=True)
-logger.info("'Close' column dropped from portfolio.")
+print("'Close' column dropped from portfolio.")
 
 portfolio.head()
 
 # Drop 'url' from news_data
 news_data.drop('url', axis=1, inplace=True)
-logger.info("'url' column dropped from news_data.")
+print("'url' column dropped from news_data.")
 
 print(news_data.head())
 
@@ -33,7 +31,7 @@ print(news_data.head())
 news_data['datetime'] = pd.to_datetime(news_data['datetime'], errors='coerce').dt.date
 news_data.rename(columns={'datetime': 'date'}, inplace=True)
 news_data = news_data[['date', 'ticker', 'headline', 'summary', 'source']]
-logger.info("Datetime column processed and renamed to 'date' in news_data.")
+print("Datetime column processed and renamed to 'date' in news_data.")
 
 # Dataframe overview function
 def dataframe_overview(df):
@@ -91,15 +89,15 @@ def trim(df):
 # Apply cleaning function
 print("\n Clean Portfolio Dataset")
 portfolio_df = trim(portfolio)
-logger.info("Portfolio dataset cleaned.")
+print("Portfolio dataset cleaned.")
 
 print("\n Clean Portfolio Price Dataset")
 portfolio_price_df = trim(portfolio_price)
-logger.info("Portfolio price dataset cleaned.")
+print("Portfolio price dataset cleaned.")
 
 print("\n Clean News Dataset")
 news_data_df = trim(news_data)
-logger.info("News dataset cleaned.")
+print("News dataset cleaned.")
 
 # Merge portfolio_price_df and portfolio_df
 portfolio_merge = pd.merge(
@@ -109,7 +107,7 @@ portfolio_merge = pd.merge(
     how="inner"
 )
 
-logger.info("Portfolio merged successfully.")
+print("Portfolio merged successfully.")
 print("Merge dataset: \n", portfolio_merge)
 
 # Merge portfolio_merge and news_data_df
@@ -120,9 +118,10 @@ merge_df = pd.merge(
     how="inner"
 )
 
-logger.info("Final merge with news data completed.")
+print("Final merge with news data completed.")
 print("Final merge dataset: \n", merge_df)
-
+print(merge_df.info())
+clean_merge_df= merge_df.copy()
 # Text cleaning
 import re
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
@@ -151,10 +150,11 @@ def clean_text(text):
     filtered_words = [word for word in words if word not in custom_stopword]
     return ' '.join(filtered_words)
 
-merge_df['headline'] = merge_df['headline'].apply(clean_text)
-merge_df['summary'] = merge_df['summary'].apply(clean_text)
-merge_df['source'] = merge_df['source'].apply(clean_text)
+clean_merge_df['headline'] = clean_merge_df['headline'].apply(clean_text)
+clean_merge_df['summary'] = clean_merge_df['summary'].apply(clean_text)
+clean_merge_df['source'] = clean_merge_df['source'].apply(clean_text)
 
-logger.info("Text columns cleaned in final merged dataset.")
+print("Text columns cleaned in final merged dataset.")
 
-print("Final clean news_dataset: \n ", merge_df)
+print("Final clean news_dataset: \n ", clean_merge_df)
+print(clean_merge_df.info())
