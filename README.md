@@ -48,7 +48,7 @@ To run this project, install the following Python libraries:
 
 ```bash
 pip install pandas matplotlib seaborn wordcloud scikit-learn requests
-``` bash
+``` 
 
 Structure of Project 
 
