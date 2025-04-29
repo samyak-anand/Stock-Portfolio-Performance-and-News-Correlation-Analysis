@@ -32,17 +32,28 @@ Additionally, this project demonstrates:
 ## Project Structure
 
 ├── Dags/ 
+
 |  ├── prepare_dataset.py        # Data cleaning, merging, and text preprocessing
-   ├── 
+
+   ├── news_injection.py         # Inserting data from API 
+   
+   ├── stock_data_injection.py   # Inserting stock data from .csv 
+   
    ├── Stock_Portfolio.ipynb      # Main analysis notebook (EDA and visualizations)
 
 ├── README.md                  # Project documentation (this file)
 
 ├── data/                      # Directory for raw datasets
+
 │    ├── portfolio.csv
+
 │    ├── portfolio_prices.csv
+
 │    └── news_data.json
-└── requirements.txt           # Python package requirements
+
+├── upddated_news_data.csv   # output file, created  after we inject the news data from API
+
+└── requirements.txt         # Python package requirements
 
 
 
