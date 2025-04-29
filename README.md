@@ -33,23 +33,23 @@ Additionally, this project demonstrates:
 
 ├── Dags/ 
 
-|  ├── prepare_dataset.py        # Data cleaning, merging, and text preprocessing
-
-   ├── news_injection.py         # Inserting data from API 
+   |  ├── prepare_dataset.py        # Data cleaning, merging, and text preprocessing
    
-   ├── stock_data_injection.py   # Inserting stock data from .csv 
-   
-   ├── Stock_Portfolio.ipynb      # Main analysis notebook (EDA and visualizations)
+      ├── news_injection.py         # Inserting data from API 
+      
+      ├── stock_data_injection.py   # Inserting stock data from .csv 
+      
+      ├── Stock_Portfolio.ipynb      # Main analysis notebook (EDA and visualizations)
 
 ├── README.md                  # Project documentation (this file)
 
 ├── data/                      # Directory for raw datasets
 
-│    ├── portfolio.csv
-
-│    ├── portfolio_prices.csv
-
-│    └── news_data.json
+   │    ├── portfolio.csv
+   
+   │    ├── portfolio_prices.csv
+   
+   │    └── news_data.json
 
 ├── upddated_news_data.csv   # output file, created  after we inject the news data from API
 
@@ -80,6 +80,35 @@ EDA
 
 ![alt text](EDA.drawio.png)
 
+Purpose: The primary goal of EDA in your stock portfolio performance and news correlation analysis is to better understand the characteristics of your dataset and uncover insights that will inform further modeling steps. This typically involves understanding the distribution of variables, checking for patterns, identifying missing values, and visualizing relationships between variables (such as stock prices).
+
+
+Flowchart for EDA Process
+In your project structure, the flowchart for EDA should outline the following process:
+
+   Data Injection:
+   
+      Data is imported and prepared for analysis (data acquisition from APIs, databases, or local sources).
+   
+   Preprocessing:
+   
+      Handle missing data, remove duplicates, and preprocess textual data (clean news articles).
+   
+   Exploratory Analysis:
+   
+      Visualize data distributions, correlations, and relationships between stock data and news sentiment.
+   
+   Feature Engineering:
+   
+      Create additional features like rolling averages or sentiment scores for further analysis.
+   
+   Statistical Analysis & Insights:
+   
+      Apply statistical methods and visualizations to reveal insights about how news correlates with stock performance.
+   
+   Reporting:
+   
+      Summarize findings and prepare data for modeling or further analysis.
 
 
 
