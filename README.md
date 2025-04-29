@@ -98,10 +98,6 @@ In your project structure, the flowchart for EDA should outline the following pr
    
       Visualize data distributions, correlations, and relationships between stock data and news sentiment.
    
-   Feature Engineering:
-   
-      Create additional features like rolling averages or sentiment scores for further analysis.
-   
    Statistical Analysis & Insights:
    
       Apply statistical methods and visualizations to reveal insights about how news correlates with stock performance.
