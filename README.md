@@ -43,7 +43,7 @@ Additionally, this project demonstrates:
 
 ├── README.md                  # Project documentation (this file)
 
-├── data/                      # Directory for raw datasets
+├── Dataset                      # Directory for raw datasets
 
    │    ├── portfolio.csv
    
