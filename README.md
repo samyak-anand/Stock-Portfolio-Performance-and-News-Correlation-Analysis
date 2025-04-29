@@ -31,9 +31,13 @@ Additionally, this project demonstrates:
 ---
 ## Project Structure
 
-├── prepare_dataset.py        # Data cleaning, merging, and text preprocessing
-├── Stock_Portfolio.ipynb      # Main analysis notebook (EDA and visualizations)
+├── Dags/ 
+|  ├── prepare_dataset.py        # Data cleaning, merging, and text preprocessing
+   ├── 
+   ├── Stock_Portfolio.ipynb      # Main analysis notebook (EDA and visualizations)
+
 ├── README.md                  # Project documentation (this file)
+
 ├── data/                      # Directory for raw datasets
 │    ├── portfolio.csv
 │    ├── portfolio_prices.csv
