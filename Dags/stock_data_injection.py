@@ -1,11 +1,11 @@
 import pandas as pd
 
 # File paths
-dow_jones_path = '/home/samyak/PycharmProjects/Stock-Portfolio-Performance-and-News-Correlation-Analysis/Dataset/Dow_Jones.csv'
-nasdaq_path = '/home/samyak/PycharmProjects/Stock-Portfolio-Performance-and-News-Correlation-Analysis/Dataset/NASDAQ.csv'
-sp500_path = '/home/samyak/PycharmProjects/Stock-Portfolio-Performance-and-News-Correlation-Analysis/Dataset/SP500.csv'
-portfolio_path = '/home/samyak/PycharmProjects/Stock-Portfolio-Performance-and-News-Correlation-Analysis/Dataset/Portfolio.csv'
-portfolio_price_path = '/home/samyak/PycharmProjects/Stock-Portfolio-Performance-and-News-Correlation-Analysis/Dataset/Portfolio_prices.csv'
+dow_jones_path = r"C:\Users\samya\Stock-Portfolio-Performance-and-News-Correlation-Analysis\Dataset\Dow_Jones.csv"
+nasdaq_path =  r"C:\Users\samya\Stock-Portfolio-Performance-and-News-Correlation-Analysis\Dataset\NASDAQ.csv"
+sp500_path = r"C:\Users\samya\Stock-Portfolio-Performance-and-News-Correlation-Analysis\Dataset\Portfolio_prices.csv"
+portfolio_path = r"C:\Users\samya\Stock-Portfolio-Performance-and-News-Correlation-Analysis\Dataset\Portfolio.csv"
+portfolio_price_path = r"C:\Users\samya\Stock-Portfolio-Performance-and-News-Correlation-Analysis\Dataset\SP500.csv"
 
 # Load datasets with print statements instead of logging
 try:
